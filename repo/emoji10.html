@@ -206,24 +206,24 @@
             <div class="col-12">
                 <h2>Which does what?</h2>
                 <hr>
-                <p>EmojiPort (all variants) adds latest emojis on your emoji keyboard. It may need the following other tweaks depending on the iOS version you are on to make everything work as intended.</p>
+                <p>EmojiPort adds latest emojis on your emoji keyboard. It may need the following other tweaks depending on the iOS version you are on to make everything work as intended.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6 col-lg-3">
                 <h3>EmojiAttributes</h3>
                 <p>This tweak
-                    <b>helps display emoji characters properly</b>. Otherwise, we may see "?", "U", square or just blank space instead of actual emojis.</p>
+                    <b>helps display emoji characters properly</b>. Otherwise, you may see "?", "U", square or just blank space instead of actual emojis.</p>
             </div>
             <div class="col-sm-6 col-lg-3">
                 <h3>EmojiLocalization</h3>
                 <p>This tweak
-                    <b>adds missing localized strings</b> on the emoji keyboard.</p>
+                    <b>adds missing localized strings</b> on the emoji keyboard. For example: "People", "Nature" and "Objects"</p>
             </div>
             <div class="col-sm-6 col-lg-3">
                 <h3>EmojiResources</h3>
                 <p>This tweak
-                    <b>adds missing category icons</b> on the emoji keyboard.</p>
+                    <b>adds missing category icons</b> on the emoji keyboard. That is, the icons you see at the bottom-middle of the emoji keyboard.</p>
             </div>
             <div class="col-sm-6 col-lg-3">
                 <h3>EmojiFontManager</h3>
@@ -234,13 +234,12 @@
         <div class="row">
             <div class="col-sm-6">
                 <h3>EmojiLibrary</h3>
-                <p>It is rather a library but required for all EmojiPort tweaks to
-                    <b>handle any kind of emoji correctly</b>.</p>
+                <p>Required for all EmojiPort tweaks, it contains a set of latest emojis and <b>handles any kind of emoji correctly</b>.</p>
             </div>
             <div class="col-sm-6">
                 <h3>EmojiDarkStyle</h3>
                 <p>This tweak is optional. It
-                    <b>enables dark variants of emoji category icons available on iOS 10.2+</b>.</p>
+                    <b>enables dark variants of emoji category icons seen in iOS 10.2+</b>.</p>
             </div>
         </div>
         <div class="row">
@@ -248,10 +247,10 @@
                 <h2 style="color:red;">Read first about EmojiPort</h2>
                 <hr>
                 <p>Emojis have been integrated into iOS as a keyboard. All emojis you see on the keyboard are defined as lists within the system, varying across iOS versions. Newer iOS versions usually include more emojis so the users at the lower versions
-                    won't be able to use nor see unless they update their iOS.</p>
-                <p>All emoji images are packed as a font, named AppleColorEmoji (and .AppleColorEmojiUI in iOS 10+). In other words, an emoji font is crucial in order to display emojis correctly. For sure, the font gets updated to include new emojis.</p>
-                <p>EmojiPort will override the original emoji list with the up-to-date one. It means that your emoji keyboard will have more and latest emojis. For this, EmojiPort requires an up-to-date font that contains all emoji images needed. Without
-                    the new font installed, users are going to see "blank" emojis - in other words, new emojis won't show up.</p>
+                    won't be able to use or see unless they update their iOS.</p>
+                <p>All emoji images are packed as a font, named AppleColorEmoji (and .AppleColorEmojiUI in iOS 10+). In other words, an emoji font is crucial in order to display emojis correctly. The font gets updated to include new emojis, of course.</p>
+                <p>EmojiPort replaces the original emoji list with the up-to-date one. For this, EmojiPort also requires an up-to-date font that contains all emoji images needed. Without the new font installed, users are going to see "blank" emojis - in
+                    other words, new emojis won't show up.</p>
             </div>
         </div>
         <div class="row">
@@ -342,10 +341,12 @@
                         <b>AppleColorEmoji@2x.ttf</b>) and
                         <b>AppleColorEmoji@2x.ccf</b> (if there is one) in
                         <code>/System/Library/Fonts/Core</code> or
-                        <code>/System/Library/Fonts/Cache</code> of your device (Rename by adding .bak or simply move them to somewhere else)</li>
+                        <code>/System/Library/Fonts/Cache</code> of your device (Rename by adding .bak or simply move them to somewhere else)
+                        <b>MAKE SURE you don't let the default and the new font files in the same directory - or your keyboard will break.</b>
+                    </li>
                     <li>If you device is non-retina, all font names won't include
                         <b>@2x</b>, instead will be
-                        <b>_1x</b> (in iOS 8.2) or just none otherwise.
+                        <b>_1x</b> (in iOS 8.2) or nothing otherwise.
                     </li>
                 </ol>
                 <h4>Copy the font to the correct location</h4>
@@ -418,7 +419,7 @@
                     <li>
                         [BytaFont] <code>/User/Library/Preferences/BytaFontBackup</code> should keep all the default fonts, you can get the old emoji font from there.</li>
                     <li>Some system-default emoji fonts are provided
-                        <a href="https://github.com/PoomSmart/EmojiLibrary ">here</a>
+                        <a href="https://github.com/PoomSmart/EmojiLibrary">here</a>
                     </li>
                     <li>Download firmware or OTA update corresponding to your iOS version, extract files (decrypt if needed) and copy the original ones to the font directory.</li>
                 </ul>
