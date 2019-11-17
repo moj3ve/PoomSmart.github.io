@@ -87,12 +87,11 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.1.3", "Fixed some emojis not having skin tone options (iOS < 10)" ],
             [ "1.1.2", "Fixed some skinned profession emojis being rendered incorrectly" ],
             [ "1.1.1", "Fixed some emojis not showing skin tones when tapped (iOS < 8.3)" ],
             [ "1.1.0", "Stable release, improved support for couple emojis" ],
-            [ "1.0.19~b6", "Improved logic and hidden neutral couple/family emojis added" ],
-            [ "1.0.19~b5", "Determine base emoji string from couple emojis correctly" ],
-            [ "1.0.19~b1-4", "iOS 13.2 emojis support" ]
+            [ "1.0.19~b1-6", "iOS 13.2 emojis support" ]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
                     algorithms and functionalities that handle any kind of emojis - display as images properly. Developers\
