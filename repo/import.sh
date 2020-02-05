@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm -f depictions/* sileodepictions/*
-python depiction_gen.py
+python3 depiction_gen.py
 dpkg-scanpackages -m ./debs /dev/null > Packages
 gzip -cf Packages > Packages.gz
 xz -9fkev Packages > Packages.xz
