@@ -80,6 +80,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/amber.html
 Name: Amber
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
 
+Package: com.ps.amber
+Version: 0.0.3.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 392
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Filename: ./debs/com.ps.amber_0.0.3.3_iphoneos-arm.deb
+Size: 29922
+MD5sum: 410279c48bcb8f4c4f31fa15703bd8c0
+SHA1: a8f5fb307e08c93a82f6e8ddaf1694b800796585
+SHA256: 015b561ad8b51e6d8d1945970be36120aae6501f8dc661122eab4f6f2145e9e5
+Section: Tweaks
+Description: Amber-ify your LED torch.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
 Package: com.ps.anysuggestemojiim
 Version: 1.0.1
 Architecture: iphoneos-arm
