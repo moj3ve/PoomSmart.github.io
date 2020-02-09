@@ -214,6 +214,9 @@ tweaks = [
         "file": "quadhighcurrent",
         "title": "QuadHighCurrent",
         "min_ios": "10.0",
+        "changes": [
+            [ "0.0.2", "Supports Quad-LEDs devices running iOS 13" ]
+        ],
         "description": "<p>A CC module/Flipswitch tweak (similar to Amber) to always have the maximum LEDs brightness (i.e., using high current) for quad-LEDs devices. An example is when you turn on the light in video recording mode of the stock camera app. For iPhone 7 and newer, iPad Pro 12.9\" (2nd Gen) and newer.</p>"
     },
     {
