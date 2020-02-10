@@ -47,40 +47,6 @@ Author: PoomSmart
 Name: Adguard Unbounded
 
 Package: com.ps.amber
-Version: 0.0.3.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 376
-Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Filename: ./debs/com.ps.amber_0.0.3.1_iphoneos-arm.deb
-Size: 24546
-MD5sum: 2c884a684455003c9c09df27232255d2
-SHA1: fde02ae6714c18ab01d9e84a72b0289484e7b5c1
-SHA256: c7b909ef48e0ff46c53c3e616fb02f918adff2061bfa9edb5710e0f99cd80109
-Section: Tweaks
-Description: Amber-ify your LED torch.
-Author: PoomSmart
-Name: Amber
-
-Package: com.ps.amber
-Version: 0.0.3.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 376
-Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Filename: ./debs/com.ps.amber_0.0.3.2_iphoneos-arm.deb
-Size: 24970
-MD5sum: 49dca895879f615a75dd652d2f421f1d
-SHA1: a0749076da7f5c8ee3daba16f71d32a09c77bc4f
-SHA256: 307cd09eca0e1ee869dda1779790bff2594fb2368a8e4f12e874a5be8bc2ee89
-Section: Tweaks
-Description: Amber-ify your LED torch.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/amber.html
-Name: Amber
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
-
-Package: com.ps.amber
 Version: 0.0.3.3
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -734,10 +700,10 @@ Maintainer: PoomSmart
 Installed-Size: 396
 Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
 Filename: ./debs/com.ps.quadhighcurrent_0.0.2_iphoneos-arm.deb
-Size: 15046
-MD5sum: c1dbfc6dde74850054d119b818af6481
-SHA1: f8ce1572b6f5c9fbe292700553d50601aa14234f
-SHA256: 62a68127a1e7f66a3079aa39b33830c08a9f4b08af3793b7ee76948014ffb5d8
+Size: 15056
+MD5sum: 25ef6931c2f1053c4eaac8e0c4be3390
+SHA1: dbd5f1287674c9545ca35a93173b9b01897d1e52
+SHA256: 8e2c57a195eefdfd2cd4debd0a81ba79e8ce91cab7e4e610aff4a8946666e1d5
 Section: Tweaks
 Description: Utilize "high current" for Quad-LEDs devices.
 Author: PoomSmart
