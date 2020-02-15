@@ -71,10 +71,10 @@ Maintainer: PoomSmart
 Installed-Size: 392
 Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
 Filename: ./debs/com.ps.amber_0.0.3.4_iphoneos-arm.deb
-Size: 29750
-MD5sum: d5f9041edabd38bc2e4103eb65e79690
-SHA1: 4bb9e4c8630ff78c1acfe1e6a3f05941027f6dcc
-SHA256: 8a8fcc1513a8e3665b40223a54616e41779a35906dee6f79839381b6b9e84b6e
+Size: 29846
+MD5sum: 72c7bc4df5e6f247355c3abeaa5f897b
+SHA1: afdb1b755cc174a8027186676473e28c1f108d03
+SHA256: dc560e5b2b93ae22e57bf97457388b3f595ae0b8ca5111fab2ff73158cc0b724
 Section: Tweaks
 Description: Amber-ify your LED torch.
 Author: PoomSmart
