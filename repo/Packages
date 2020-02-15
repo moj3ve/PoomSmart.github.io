@@ -64,6 +64,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/amber.html
 Name: Amber
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
 
+Package: com.ps.amber
+Version: 0.0.3.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 392
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Filename: ./debs/com.ps.amber_0.0.3.4_iphoneos-arm.deb
+Size: 29750
+MD5sum: d5f9041edabd38bc2e4103eb65e79690
+SHA1: 4bb9e4c8630ff78c1acfe1e6a3f05941027f6dcc
+SHA256: 8a8fcc1513a8e3665b40223a54616e41779a35906dee6f79839381b6b9e84b6e
+Section: Tweaks
+Description: Amber-ify your LED torch.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
 Package: com.ps.anysuggestemojiim
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -722,6 +740,24 @@ Size: 15056
 MD5sum: 25ef6931c2f1053c4eaac8e0c4be3390
 SHA1: dbd5f1287674c9545ca35a93173b9b01897d1e52
 SHA256: 8e2c57a195eefdfd2cd4debd0a81ba79e8ce91cab7e4e610aff4a8946666e1d5
+Section: Tweaks
+Description: Utilize "high current" for Quad-LEDs devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
+Name: QuadHighCurrent
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
+
+Package: com.ps.quadhighcurrent
+Version: 0.0.2.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 396
+Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Filename: ./debs/com.ps.quadhighcurrent_0.0.2.1_iphoneos-arm.deb
+Size: 15080
+MD5sum: 2c9e0100af57e8ac9e210fa7db743695
+SHA1: f2f075f4d555cf1c382578583d3fb68d5f7fd332
+SHA256: 24395a09484b6085f29154d39d58abfc88ba497f34558cb1098d52892e4e37e3
 Section: Tweaks
 Description: Utilize "high current" for Quad-LEDs devices.
 Author: PoomSmart
