@@ -47,24 +47,6 @@ Author: PoomSmart
 Name: Adguard Unbounded
 
 Package: com.ps.amber
-Version: 0.0.3.3
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 392
-Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Filename: ./debs/com.ps.amber_0.0.3.3_iphoneos-arm.deb
-Size: 29922
-MD5sum: 410279c48bcb8f4c4f31fa15703bd8c0
-SHA1: a8f5fb307e08c93a82f6e8ddaf1694b800796585
-SHA256: 015b561ad8b51e6d8d1945970be36120aae6501f8dc661122eab4f6f2145e9e5
-Section: Tweaks
-Description: Amber-ify your LED torch.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/amber.html
-Name: Amber
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
-
-Package: com.ps.amber
 Version: 0.0.3.4
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -113,6 +95,23 @@ Section: Tweaks
 Description: Predictive keyboard anywhere.
 Author: PoomSmart
 Name: AnywherePredict
+
+Package: com.ps.apppad
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate
+Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
+Filename: ./debs/com.ps.apppad_0.0.1_iphoneos-arm.deb
+Size: 3936
+MD5sum: 32fa5867ff751e177aead300a47a201a
+SHA1: 175d6aa9f40591c0ef82f3b45ab6d0eb00a75659
+SHA256: 8565237afdfb0656cc8023c79ab4f535016aad3e56bb6794f38ed90f6704941a
+Section: Tweaks
+Description: Full screen, Split and Slideover for every app on iPad.
+Author: PoomSmart
+Name: AppPad
 
 Package: com.ps.bigmoji
 Version: 1.0.0
@@ -660,24 +659,6 @@ Name: Pad56
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pad56.json
 
 Package: com.ps.pencilpro
-Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 200
-Depends: firmware (>= 9.0), gsc.ipad, mobilesubstrate
-Filename: ./debs/com.ps.pencilpro_0.0.2_iphoneos-arm.deb
-Size: 6084
-MD5sum: ec71788f8a904c1c7683194cb140dbdc
-SHA1: efed84032ac669cfffb67105f553fb5a822e4621
-SHA256: cabe20f5ac549bf631f2bec6c0f41fe39bb67e11160789ab49dc47ffc41a3c1b
-Section: Tweaks
-Description: Apple Pencil can do better.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/pencilpro.html
-Name: Pencil Pro
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pencilpro.json
-
-Package: com.ps.pencilpro
 Version: 0.0.2.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -710,42 +691,6 @@ Section: Addons (Flipswitch)
 Description: Toggle for power actions, with confirmation
 Author: PoomSmart
 Name: Power Option FS
-
-Package: com.ps.quadhighcurrent
-Version: 0.0.1-1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 396
-Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Filename: ./debs/com.ps.quadhighcurrent_0.0.1-1_iphoneos-arm.deb
-Size: 14728
-MD5sum: ea6d2f6e6033dc53890012ef4330f3c4
-SHA1: b63d543178295ac66aaf392ff6afc75480961af7
-SHA256: b8b0a67e090b6bf52f24922eff3ef7be3ecb01a652ced1678f3404cb5eebc793
-Section: Tweaks
-Description: Utilize "high current" for Quad-LEDs devices.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
-Name: QuadHighCurrent
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
-
-Package: com.ps.quadhighcurrent
-Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 396
-Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Filename: ./debs/com.ps.quadhighcurrent_0.0.2_iphoneos-arm.deb
-Size: 15056
-MD5sum: 25ef6931c2f1053c4eaac8e0c4be3390
-SHA1: dbd5f1287674c9545ca35a93173b9b01897d1e52
-SHA256: 8e2c57a195eefdfd2cd4debd0a81ba79e8ce91cab7e4e610aff4a8946666e1d5
-Section: Tweaks
-Description: Utilize "high current" for Quad-LEDs devices.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
-Name: QuadHighCurrent
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
 
 Package: com.ps.quadhighcurrent
 Version: 0.0.2.1
