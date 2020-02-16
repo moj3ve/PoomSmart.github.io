@@ -96,6 +96,22 @@ Description: Predictive keyboard anywhere.
 Author: PoomSmart
 Name: AnywherePredict
 
+Package: com.ps.applebtdeviceessupport
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.ps.applebtdeviceessupport_0.0.1_iphoneos-arm.deb
+Size: 2468
+MD5sum: 9031c076e2bb64f7639c3f52430c5586
+SHA1: 3e9819d0efb4ca1ff5152e2aabade559f109f814
+SHA256: 39c6cd587eb4e3e0b543163db3201b42bbd03f0c12d66458f5d7b1939fdf92eb
+Section: Tweaks
+Description: Enable discovery and connection to Apple Bluetooth devices.
+Author: PoomSmart
+Name: Apple BT Devices Support
+
 Package: com.ps.apppad
 Version: 0.0.1
 Architecture: iphoneos-arm
