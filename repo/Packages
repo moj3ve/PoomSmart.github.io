@@ -692,6 +692,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/pencilpro.html
 Name: Pencil Pro
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pencilpro.json
 
+Package: com.ps.pencilpro
+Version: 0.0.2.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: firmware (>= 9.0), gsc.ipad, mobilesubstrate
+Filename: ./debs/com.ps.pencilpro_0.0.2.2_iphoneos-arm.deb
+Size: 6460
+MD5sum: 4fe48b85896e6bb14d41c898751ced17
+SHA1: 93df0a81d687e3a6f52b4b44dbe1b4c9e08e1c8b
+SHA256: caf6352fdb4b2de511620fb10eeee5ca368aa5dc070fe4066afeb54ab30a8158
+Section: Tweaks
+Description: Apple Pencil can do better.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/pencilpro.html
+Name: Pencil Pro
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pencilpro.json
+
 Package: com.ps.poweroptionfs
 Version: 0.0.2
 Architecture: iphoneos-arm
