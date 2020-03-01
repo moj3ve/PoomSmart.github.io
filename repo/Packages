@@ -97,16 +97,16 @@ Author: PoomSmart
 Name: AnywherePredict
 
 Package: com.ps.anywherepredict
-Version: 1.1.3
+Version: 1.1.3.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate, firmware (>= 8.0)
-Filename: ./debs/com.ps.anywherepredict_1.1.3_iphoneos-arm.deb
-Size: 4752
-MD5sum: 08b8cc3afd3904a9a0b862b92f5cb8bf
-SHA1: 64c28c11153b466545b4030d6e2ac0858bee0a84
-SHA256: 9fef74fdfb40cee094aec214a540c8ddd89585cc17b6de13ff6fd25c64b4b301
+Filename: ./debs/com.ps.anywherepredict_1.1.3.1_iphoneos-arm.deb
+Size: 4750
+MD5sum: 82824fff435e3e84c872a0a533b742d1
+SHA1: 261cd3b6d9ff38e5fd2c644dfdf1bd32d660d48d
+SHA256: b8977c1557fbb193d073ecadc2b8ef6eec2c82b53db81e507bb758d2314872e0
 Section: Tweaks
 Description: Predictive keyboard anywhere.
 Author: PoomSmart
