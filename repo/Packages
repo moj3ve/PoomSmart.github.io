@@ -1029,6 +1029,22 @@ Description: Dismiss installation window without closing cydia.
 Author: PoomSmart
 Name: DismissProgress
 
+Package: org.thebigboss.dismissprogress
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: firmware (>= 6.0)
+Filename: ./debs/org.thebigboss.dismissprogress_1.1_iphoneos-arm.deb
+Size: 4866
+MD5sum: c6a93c8ad8c7a18db27abf879b4e8b2f
+SHA1: d2270de9a2b353b68ec3137f010b2e091ea57917
+SHA256: 01fca3dfd9cc71b30d484243bc0b60a20ef7bd525fe74b8be3c18853eff4aa7c
+Section: Tweaks
+Description: Dismiss installation window without closing cydia.
+Author: PoomSmart
+Name: DismissProgress
+
 Package: org.thebigboss.smoothcursor
 Version: 1.1.3
 Architecture: iphoneos-arm
