@@ -47,8 +47,9 @@ tweaks = [
         "file": "emojiattributes",
         "title": "EmojiAttributes",
         "min_ios": "5.1",
-        "max_ios": "12.4.3",
+        "max_ios": "13.1",
         "changes": [
+            [ "1.3.26", "Up-to-date CoreFoundation hack, fixing displaying of 3 emoji flags" ],
             [ "1.3.25", "Deleting couple emojis should now take one tap (iOS < 12.1)" ],
             [ "1.3.24-2", "Further file size reduced" ],
             [ "1.3.24", "Stable-ish release, fixed crash-to-safe-mode on iOS 6" ],
