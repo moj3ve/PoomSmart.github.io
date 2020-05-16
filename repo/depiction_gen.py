@@ -268,9 +268,8 @@ tweaks = [
         "title": "Pencil Pro",
         "min_ios": "9.0",
         "changes": [
-            [ "0.0.2.2", "Improved iOS 13 support a bit" ],
-            [ "0.0.2.1", "Fixed crash on iOS 13" ],
-            [ "0.0.2", "Deprecated libSubstitrate" ]
+            [ "0.0.2.3", "Removed unused bits" ],
+            [ "0.0.2.2", "Improved iOS 13 support a bit" ]
         ],
         "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>"
     }
