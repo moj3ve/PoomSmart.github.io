@@ -271,6 +271,19 @@ tweaks = [
             [ "0.0.2.2", "Improved iOS 13 support a bit" ]
         ],
         "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>"
+    },
+    {
+        "file": "pearltracking",
+        "title": "Pearl Tracking",
+        "min_ios": "13.0",
+        "description": "<ol>\
+            <li>Go to Settings > Control Center > Customize Controls > <i>Enable</i> Pearl Tracking</li>\
+            <li>Enable Assistive Touch</li>\
+            <li>Invoke Control Center</li>\
+            <li><b>Get some painkiller</b></li>\
+            <li>Turn on Pearl Tracking</li>\
+            <li>???</li>\
+        </ol>"
     }
 ]
 

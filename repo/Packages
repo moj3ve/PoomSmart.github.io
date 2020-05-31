@@ -295,25 +295,6 @@ Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
 Package: com.ps.emojiattributes
-Version: 1.3.26
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 288
-Depends: firmware (>= 6.0), mobilesubstrate
-Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.3.26_iphoneos-arm.deb
-Size: 23548
-MD5sum: 0dba3f3554a287504307518e88be46ea
-SHA1: e6c5b6df85080c22f205fe32b06aa4ceac26a77c
-SHA256: 55eb6cd726b4287ebd9f9dd6e09f86a3f7688e5f8292608eda7eb9c53c07855c
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
 Version: 1.3.27
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -728,23 +709,23 @@ Depiction: https://poomsmart.github.io/repo/depictions/pad56.html
 Name: Pad56
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pad56.json
 
-Package: com.ps.pencilpro
-Version: 0.0.2.2
+Package: com.ps.pearltracking
+Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 200
-Depends: firmware (>= 9.0), gsc.ipad, mobilesubstrate
-Filename: ./debs/com.ps.pencilpro_0.0.2.2_iphoneos-arm.deb
-Size: 6460
-MD5sum: 4fe48b85896e6bb14d41c898751ced17
-SHA1: 93df0a81d687e3a6f52b4b44dbe1b4c9e08e1c8b
-SHA256: caf6352fdb4b2de511620fb10eeee5ca368aa5dc070fe4066afeb54ab30a8158
+Installed-Size: 356
+Depends: mobilesubstrate, firmware (>= 13.0), com.opa334.ccsupport
+Filename: ./debs/com.ps.pearltracking_0.0.1_iphoneos-arm.deb
+Size: 37348
+MD5sum: 29b741f273d3d3b1d8c4102ec8e71b6c
+SHA1: e79e67dd6f1029d07ac6433e8492561a3aa98a0b
+SHA256: 510de1de8be0c60023dbf2d81962a98dd89fb2079f7e51351cf7d35acce53667
 Section: Tweaks
-Description: Apple Pencil can do better.
+Description: Move the mouse cursor with your face.
 Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/pencilpro.html
-Name: Pencil Pro
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pencilpro.json
+Depiction: https://poomsmart.github.io/repo/depictions/pearltracking.html
+Name: PearlTracking
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pearltracking.json
 
 Package: com.ps.pencilpro
 Version: 0.0.2.3
@@ -1062,22 +1043,6 @@ Size: 4784
 MD5sum: 5cfb42b8d599bf51c32462c9b3d46772
 SHA1: 00305dc60d2557d32b2c495b5bce7bda29085909
 SHA256: 0ba1ca96a3e167085b341b09838e1be1f8a9030863d17665687336fc60d53f3c
-Section: Tweaks
-Description: Dismiss installation window without closing cydia.
-Author: PoomSmart
-Name: DismissProgress
-
-Package: org.thebigboss.dismissprogress
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 152
-Depends: firmware (>= 6.0)
-Filename: ./debs/org.thebigboss.dismissprogress_1.1_iphoneos-arm.deb
-Size: 4866
-MD5sum: c6a93c8ad8c7a18db27abf879b4e8b2f
-SHA1: d2270de9a2b353b68ec3137f010b2e091ea57917
-SHA256: 01fca3dfd9cc71b30d484243bc0b60a20ef7bd525fe74b8be3c18853eff4aa7c
 Section: Tweaks
 Description: Dismiss installation window without closing cydia.
 Author: PoomSmart
