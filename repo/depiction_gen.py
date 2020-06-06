@@ -267,6 +267,7 @@ tweaks = [
         "title": "Pencil Pro",
         "min_ios": "9.0",
         "changes": [
+            [ "0.0.2.4", "Improved iOS 13.5 support" ],
             [ "0.0.2.3", "Removed unused bits" ],
             [ "0.0.2.2", "Improved iOS 13 support a bit" ]
         ],
