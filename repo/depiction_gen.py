@@ -285,6 +285,12 @@ tweaks = [
             <li>Turn on Pearl Tracking</li>\
             <li>???</li>\
         </ol>"
+    },
+    {
+        "file": "hdavatar",
+        "title": "HD Avatar",
+        "min_ios": "11.0",
+        "description": "<p>Default size of Animoji/Memoji stickers is no more than 500px * 500px and the stickers look too pixellated. This tweak will simply double the size.</p>"
     }
 ]
 

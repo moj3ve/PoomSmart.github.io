@@ -589,6 +589,24 @@ Description: Allow unsupported emojis to show on Gboard keyboard.
 Author: PoomSmart
 Name: GboardAll
 
+Package: com.ps.hdavatar
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/com.ps.hdavatar_0.0.1_iphoneos-arm.deb
+Size: 2758
+MD5sum: 0abcec71e9ac5e78366ba7091398b1db
+SHA1: 363314a0f1f0bc0d657a076c2b783dc2061cc7c0
+SHA256: 0dbdae431d37bed3782382d16c25f40a43866fb57a13a7aa4d61ac2c95229ec2
+Section: Tweaks
+Description: Double the size of Animoji/Memoji stickers.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/hdavatar.html
+Name: HD Avatar
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/hdavatar.json
+
 Package: com.ps.highgraphics
 Version: 1.0.4
 Architecture: iphoneos-arm
