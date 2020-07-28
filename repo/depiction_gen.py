@@ -1,3 +1,4 @@
+# pip3 install jinja2 --user
 from jinja2 import Environment, FileSystemLoader
 import os, re, json
 
@@ -88,11 +89,11 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.1.4~b1", "In preparation of upcoming new emojis in iOS 14" ],
             [ "1.1.3", "Fixed some emojis not having skin tone options (iOS < 10)" ],
             [ "1.1.2", "Fixed some skinned profession emojis being rendered incorrectly" ],
             [ "1.1.1", "Fixed some emojis not showing skin tones when tapped (iOS < 8.3)" ],
-            [ "1.1.0", "Stable release, improved support for couple emojis" ],
-            [ "1.0.19~b1-6", "iOS 13.2 emojis support" ]
+            [ "1.1.0", "Stable release, improved support for couple emojis" ]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
                     algorithms and functionalities that handle any kind of emojis - display as images properly. Developers\
@@ -171,18 +172,19 @@ tweaks = [
     },
     {
         "file": "emojiport_12",
-        "title": "EmojiPort (iOS 12.0 - 13.1)",
+        "title": "EmojiPort (iOS 12.0 - 14.0)",
         "min_ios": "12.0",
-        "max_ios": "13.1.9",
+        "max_ios": "14.0",
         "strict_range": True,
         "changes": [
+            [ "1.0.7~b1", "In preparation of upcoming new emojis in iOS 14" ],
             [ "1.0.6", "Fixed a bug with couple emojis" ],
             [ "1.0.5", "Fixed unskinned couple emojis not showing in key popup (iPhone/iPod)" ],
             [ "1.0.4-2", "Requires latest dependencies" ],
             [ "1.0.4", "Stable release, iOS 13.0-13.1 support added" ],
             [ "1.0.3~b1-10", "iOS 13.2 emojis support" ]
         ],
-        "description": "<p>Latest emojis for iOS 12.0 - 13.1</p>\
+        "description": "<p>Latest emojis for iOS 12.0 - 14.0</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
