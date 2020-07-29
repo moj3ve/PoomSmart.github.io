@@ -403,15 +403,15 @@ Name: EmojiLibrary
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
 
 Package: com.ps.emojilibrary
-Version: 1.1.4~b1
+Version: 1.1.4~b2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 556
-Filename: ./debs/com.ps.emojilibrary_1.1.4~b1_iphoneos-arm.deb
-Size: 63792
-MD5sum: db6e91fa9330058f8c13bc82a457d2d0
-SHA1: 1a2b9490b5d90514af817486c10f18c5d82dbc69
-SHA256: 611c8658852f283e7e99242931d58ef4488c7a7aadc5e9ad4927f5af8ce8f20f
+Filename: ./debs/com.ps.emojilibrary_1.1.4~b2_iphoneos-arm.deb
+Size: 62838
+MD5sum: e020a4e1e102ca2bab81240d5be52189
+SHA1: b82b0a4691ff171c3f12648ab54aceb5dde9e0eb
+SHA256: fc05d858f0dfdbb2fcede01996baf25e7e0a31eba4a16db6d209ee3e255e79ff
 Section: Development
 Description: Master library for PoomSmart's emoji tweaks.
 Author: PoomSmart

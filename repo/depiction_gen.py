@@ -89,7 +89,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
-            [ "1.1.4~b1", "In preparation of upcoming new emojis in iOS 14" ],
+            [ "1.1.4~b2", "In preparation of upcoming new emojis in iOS 14" ],
             [ "1.1.3", "Fixed some emojis not having skin tone options (iOS < 10)" ],
             [ "1.1.2", "Fixed some skinned profession emojis being rendered incorrectly" ],
             [ "1.1.1", "Fixed some emojis not showing skin tones when tapped (iOS < 8.3)" ],
