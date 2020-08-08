@@ -208,6 +208,7 @@ tweaks = [
         "title": "Amber",
         "min_ios": "7.0",
         "changes": [
+            [ "0.0.3.5", "Prevents other UI tweaks from being injected into mediaserverd" ],
             [ "0.0.3.4", "Overrides Torch system manual parameters" ],
             [ "0.0.3.3", "Flipswitch is not required for iOS 11+, Can now configure tweak in Settings" ],
             [ "0.0.3.2", "Supports Quad-LEDs devices running iOS 13" ]
