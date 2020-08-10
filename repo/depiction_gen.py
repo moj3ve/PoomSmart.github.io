@@ -295,6 +295,16 @@ tweaks = [
         "title": "HD Avatar",
         "min_ios": "11.0",
         "description": "<p>Default size of Animoji/Memoji stickers is no more than 500px * 500px and the stickers look too pixellated. This tweak will simply double the size.</p>"
+    },
+    {
+        "file": "ytuhd",
+        "title": "YTUHD SW",
+        "min_ios": "11.0",
+        "description": "<p>Unlock 1440p and 2160p resolutions in iOS YouTube app.</p>",
+        "changes": [
+            [ "0.0.2", "Removed spoofing as iPhone 11 part" ],
+            [ "0.0.1", "Initial release" ]
+        ]
     }
 ]
 
