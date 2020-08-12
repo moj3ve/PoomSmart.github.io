@@ -52,9 +52,7 @@ tweaks = [
         "changes": [
             [ "1.3.27", "Experimenting refactoring" ],
             [ "1.3.26", "Up-to-date CoreFoundation hack, fixing displaying of 3 emoji flags" ],
-            [ "1.3.25", "Deleting couple emojis should now take one tap (iOS < 12.1)" ],
-            [ "1.3.24-2", "Further file size reduced" ],
-            [ "1.3.24", "Stable-ish release, fixed crash-to-safe-mode on iOS 6" ]
+            [ "1.3.25", "Deleting couple emojis should now take one tap (iOS < 12.1)" ]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
     },
@@ -63,7 +61,8 @@ tweaks = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
-            [ "0.0.7.1", "Added back arm64e compatibility.." ],
+            [ "0.0.7.2", "Fixed preferences not loading." ],
+            [ "0.0.7.1", "Added back arm64e compatibility." ],
             [ "0.0.7", "Support iOS 13 dark mode" ]
         ],
         "description": "<p><b>**EmojiPort needs to be installed if you also want new emojis.**</b> This tweak allows you to override system's emoji font without swapping them. Access <b>Settings app &gt; EmojFontManager</b>\
@@ -163,9 +162,7 @@ tweaks = [
         "changes": [
             [ "1.3.0", "Fixed crashing on iOS 10.1.1" ],
             [ "1.2.8", "Fixed a bug with couple emojis" ],
-            [ "1.2.7", "Fixed unskinned couple emojis not showing in key popup (iPhone/iPod)" ],
-            [ "1.2.6", "Requires latest dependencies" ],
-            [ "1.2.5~b1-8", "iOS 13.2 emojis support" ]
+            [ "1.2.7", "Fixed unskinned couple emojis not showing in key popup (iPhone/iPod)" ]
         ],
         "description": "<p>Latest emojis for iOS 10.0 - 11.4</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -179,10 +176,7 @@ tweaks = [
         "changes": [
             [ "1.0.7~b1", "In preparation of upcoming new emojis in iOS 14" ],
             [ "1.0.6", "Fixed a bug with couple emojis" ],
-            [ "1.0.5", "Fixed unskinned couple emojis not showing in key popup (iPhone/iPod)" ],
-            [ "1.0.4-2", "Requires latest dependencies" ],
-            [ "1.0.4", "Stable release, iOS 13.0-13.1 support added" ],
-            [ "1.0.3~b1-10", "iOS 13.2 emojis support" ]
+            [ "1.0.5", "Fixed unskinned couple emojis not showing in key popup (iPhone/iPod)" ]
         ],
         "description": "<p>Latest emojis for iOS 12.0 - 14.0</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"

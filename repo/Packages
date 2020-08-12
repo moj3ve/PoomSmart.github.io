@@ -386,6 +386,25 @@ Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
 Name: EmojiFontManager
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
 
+Package: com.ps.emojifontmanager
+Version: 0.0.7.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 340
+Depends: mobilesubstrate, preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.11.3)
+Filename: ./debs/com.ps.emojifontmanager_0.0.7.2_iphoneos-arm.deb
+Size: 39046
+MD5sum: 3ab2daf69802ffe275bc5460750c672f
+SHA1: cc6390b1347cd06af664be3d48a5431625a0f343
+SHA256: 85eaf5ff6b9a26f007c30fae41e42123c0c56ec4ba540d52e8092c3a29d29b03
+Section: Tweaks
+Description: Emoji font override and management.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
+Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
+Name: EmojiFontManager
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
+
 Package: com.ps.emojilayout
 Version: 1.1.17
 Architecture: iphoneos-arm
