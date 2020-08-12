@@ -47,24 +47,6 @@ Author: PoomSmart
 Name: Adguard Unbounded
 
 Package: com.ps.amber
-Version: 0.0.3.4
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 392
-Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Filename: ./debs/com.ps.amber_0.0.3.4_iphoneos-arm.deb
-Size: 29846
-MD5sum: 72c7bc4df5e6f247355c3abeaa5f897b
-SHA1: afdb1b755cc174a8027186676473e28c1f108d03
-SHA256: dc560e5b2b93ae22e57bf97457388b3f595ae0b8ca5111fab2ff73158cc0b724
-Section: Tweaks
-Description: Amber-ify your LED torch.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/amber.html
-Name: Amber
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
-
-Package: com.ps.amber
 Version: 0.0.3.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -1195,6 +1177,25 @@ Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
 Name: YTUHD SW
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 0.0.3.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: cy+cpu.arm64e
+Filename: ./debs/com.ps.ytuhd_0.0.3.2_iphoneos-arm.deb
+Size: 3994
+MD5sum: 2ab8f8b61f6ddfc25cb128dbb4e2c78c
+SHA1: eb063b0f393f14c91220b869bea8e74ea53d1a9f
+SHA256: e7da0778b3b5ccce4819653323f2b14bf5bd1ba51ebfd0874557f63575fd84f3
+Section: Tweaks
+Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD SW Legacy
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
 
 Package: org.thebigboss.camblur7
