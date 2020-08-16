@@ -155,8 +155,7 @@ tweaks = [
         "title": "LetMeBlock",
         "min_ios": "9.0",
         "changes": [
-            [ "0.0.7.3", "Removed unneeded bits" ],
-            [ "0.0.7.2", "Recompiled for iOS 13.5" ],
+            [ "0.0.7.4", "Removed unneeded bits" ],
             [ "0.0.7", "Deprecated libSubstitrate the right way" ]
         ],
         "description": "<p><a href=\"https://github.com/PoomSmart/LetMeBlock/blob/master/README.md\">README</a></p>"
