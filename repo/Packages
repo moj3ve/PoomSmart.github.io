@@ -731,16 +731,16 @@ Name: LetMeBlock
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
 
 Package: com.ps.letmeblock
-Version: 0.0.7.2
+Version: 0.0.7.3
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/com.ps.letmeblock_0.0.7.2_iphoneos-arm.deb
-Size: 6152
-MD5sum: 1f35f16e5460e7e563949f300b9a9768
-SHA1: 0e182a0913a53a0bfbf7fbf1105560eb1ac3c622
-SHA256: 581f6d80704f97d3865374f9e1a595aa2b1e261efc74fc38ba803ca2f8cf9bd3
+Filename: ./debs/com.ps.letmeblock_0.0.7.3_iphoneos-arm.deb
+Size: 5046
+MD5sum: 977f6d7947b71adb46aead0e46b6c70c
+SHA1: 42877560a5538b4e2c019fdfd734242192ad1123
+SHA256: 57874be940d0d55495d4a8062c5c10e66e1e0ca7eaaf01400b039367378fae94
 Section: Tweaks
 Description: Make mDNSResponder care more about /etc/hosts
 Author: PoomSmart
