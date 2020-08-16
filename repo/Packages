@@ -369,25 +369,6 @@ Author: PoomSmart
 Name: EmojiDarkStyle
 
 Package: com.ps.emojifontmanager
-Version: 0.0.7.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 428
-Depends: mobilesubstrate, preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.11.3)
-Filename: ./debs/com.ps.emojifontmanager_0.0.7.1_iphoneos-arm.deb
-Size: 40014
-MD5sum: b1185268f7ea8479104176d327a084df
-SHA1: 40f812ac80c98c23b527b052856811469e44c7be
-SHA256: f5d65cb63d33d5b8c718566812329f1440c7fe5c81ca6a403a6c77fb63717c44
-Section: Tweaks
-Description: Emoji font override and management.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
-Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
-Name: EmojiFontManager
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
-
-Package: com.ps.emojifontmanager
 Version: 0.0.7.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -1127,24 +1108,6 @@ Description: Manage packages via tap.
 Author: PoomSmart
 Depiction: https://poomSmart.github.io/repo/tapformore/index.html
 Name: TapForMore
-
-Package: com.ps.test
-Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: firmware (>= 999.0)
-Filename: ./debs/com.ps.test_0.0.2_iphoneos-arm.deb
-Size: 618
-MD5sum: 926b2614a3a24d60ea689d9bee2b5a4f
-SHA1: 9b7e9acca41ab2bee1e698747a57ef77bec8f482
-SHA256: 1cff4e75912397037709d718172e0cc58727f349b376a41819c70b8dde6d5481
-Section: Tweaks
-Description: Test package.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/test.html
-Name: Test
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/test.json
 
 Package: com.ps.ytuhd
 Version: 0.0.1

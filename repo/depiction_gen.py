@@ -9,23 +9,6 @@ template = env.get_template('index.html')
 
 tweaks = [
     {
-        "file": "test",
-        "title": "Test",
-        "min_ios": "6.0",
-        "max_ios": "12.1",
-        "strict_range": True,
-        "description": "<p>Test package <a href=\"#\">with some URL</a></p>\
-            <li>\
-                <p>Option 1</p>\
-                <p>Option 2</p>\
-                <p>Option 3</p>\
-            </li>",
-        "changes": [
-            [ "0.0.2", "Sileo Depiction WIP" ]
-        ],
-        "debug": True
-    },
-    {
         "file": "60fps",
         "title": "60fps",
         "min_ios": "7.0",
@@ -61,9 +44,7 @@ tweaks = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
-            [ "0.0.7.2", "Fixed preferences not loading." ],
-            [ "0.0.7.1", "Added back arm64e compatibility." ],
-            [ "0.0.7", "Support iOS 13 dark mode" ]
+            [ "0.0.7.2", "Fixed preferences not loading." ]
         ],
         "description": "<p><b>**EmojiPort needs to be installed if you also want new emojis.**</b> This tweak allows you to override system's emoji font without swapping them. Access <b>Settings app &gt; EmojFontManager</b>\
                         to choose your font. Fonts (folder with extension .font AND having AppleColorEmoji@2x.ttf/.ttc font inside)\
@@ -104,6 +85,7 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "5.1.1",
         "strict_range": True,
+        "no_sileo": True,
         "description": "<p>Latest emojis for iOS 5.1</p>\
             <p>This EmojiPort variant ports some of the iOS 6 variant for best compatibility on iOS 5. The manual way is recommended, as written in <a href=\"https://poomsmart.github.io/repo/emoji10.html\">here</a>.</p>"
     },
@@ -115,10 +97,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.7.2~b2", "Requires latest dependencies" ],
-            [ "1.7.2~b1", "Optimization" ],
-            [ "1.7.1", "Refactoring" ],
-            [ "1.7", "Layout improvement for iOS-6-styled iPad emoji (split) keyboard" ]
+            [ "1.7.2~b2", "Requires latest dependencies" ]
         ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
                 <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -131,9 +110,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.6.0", "Stable release, requires latest dependencies" ],
-            [ "1.5.13~b2", "Fixed man/woman emoji being interfered when skinned couple emoji is used" ],
-            [ "1.5.13~b1", "Simplistic couple emoji picker" ]
+            [ "1.6.0", "Stable release, requires latest dependencies" ]
         ],
         "description": "<p>Latest emojis for iOS 8.3 - 8.4</p>\
                 <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -146,9 +123,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.6.0", "Stable release, requires latest dependencies" ],
-            [ "1.5.9~b2", "Fixed man/woman emoji being interfered when skinned couple emoji is used" ],
-            [ "1.5.9~b1", "Simplistic couple emoji picker" ]
+            [ "1.6.0", "Stable release, requires latest dependencies" ]
         ],
         "description": "<p>Latest emojis for iOS 9.0 - 9.3</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -160,9 +135,7 @@ tweaks = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
-            [ "1.3.0", "Fixed crashing on iOS 10.1.1" ],
-            [ "1.2.8", "Fixed a bug with couple emojis" ],
-            [ "1.2.7", "Fixed unskinned couple emojis not showing in key popup (iPhone/iPod)" ]
+            [ "1.3.0", "Fixed crashing on iOS 10.1.1" ]
         ],
         "description": "<p>Latest emojis for iOS 10.0 - 11.4</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -175,8 +148,7 @@ tweaks = [
         "strict_range": True,
         "changes": [
             [ "1.0.7~b1", "In preparation of upcoming new emojis in iOS 14" ],
-            [ "1.0.6", "Fixed a bug with couple emojis" ],
-            [ "1.0.5", "Fixed unskinned couple emojis not showing in key popup (iPhone/iPod)" ]
+            [ "1.0.6", "Fixed a bug with couple emojis" ]
         ],
         "description": "<p>Latest emojis for iOS 12.0 - 14.0</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -239,10 +211,9 @@ tweaks = [
         "title": "libSubstitrate",
         "min_ios": "5.0",
         "changes": [
-            [ "0.0.1-3", "Crash fix for Substrate users" ],
-            [ "0.0.1-2", "Function labels changed" ]
+            [ "0.0.1-3", "Crash fix for Substrate users" ]
         ],
-        "description": "<p>This is a compatibility library for runtime modification tweaks via Substitute and Cydia Substrate.</p>\
+        "description": "<p>This is a compatibility library for runtime modification tweaks via Substitute and CydiaSubstrate.</p>\
             <p>The motivation of this project is the lack of Substrate support on A12/arm64e for those using Chimera. As Substitute API usually works better on this environment, libSubstitrate will, if available, try to use Substitute API first. Otherwise, it will fall back to Cydia Substrate.</p>"
     },
     {
@@ -266,8 +237,7 @@ tweaks = [
         "min_ios": "9.0",
         "changes": [
             [ "0.0.2.4", "Improved iOS 13.5 support" ],
-            [ "0.0.2.3", "Removed unused bits" ],
-            [ "0.0.2.2", "Improved iOS 13 support a bit" ]
+            [ "0.0.2.3", "Removed unused bits" ]
         ],
         "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>"
     },
@@ -297,7 +267,7 @@ tweaks = [
         "description": "<p>Unlock 1440p and 2160p resolutions in iOS YouTube app.</p>",
         "changes": [
             [ "0.0.3.2", "Removed video formats restrictions completely for those devices that the original hook won't just work" ],
-            [ "0.0.3.1", "Perform late-hooks for Cydia Substrate devices" ],
+            [ "0.0.3.1", "Perform late-hooks for CydiaSubstrate devices" ],
             [ "0.0.2", "Removed spoofing as iPhone 11 part" ],
             [ "0.0.1", "Initial release" ]
         ]
@@ -352,7 +322,7 @@ for entry in tweaks:
             support_versions = {
                 "class": "DepictionSubheaderView",
                 "useMargins": True,
-                "title": "Compatiable with iOS %s to %s" % (min_ios, max_ios) if min_ios and max_ios else "Compatible with iOS %s +" % min_ios
+                "title": "Compatible with iOS %s to %s" % (min_ios, max_ios) if min_ios and max_ios else "Compatible with iOS %s +" % min_ios
             }
             views.insert(0, support_versions)
         if changes:
