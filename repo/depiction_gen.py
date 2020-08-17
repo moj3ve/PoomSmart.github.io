@@ -31,8 +31,9 @@ tweaks = [
         "file": "emojiattributes",
         "title": "EmojiAttributes",
         "min_ios": "5.1",
-        "max_ios": "13.1",
+        "max_ios": "14.0",
         "changes": [
+            [ "1.3.27.3", "Fixed tweak not loading at all" ],
             [ "1.3.27", "Experimenting refactoring" ],
             [ "1.3.26", "Up-to-date CoreFoundation hack, fixing displaying of 3 emoji flags" ],
             [ "1.3.25", "Deleting couple emojis should now take one tap (iOS < 12.1)" ]
@@ -59,6 +60,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.1.17.1", "Fixed tweak not loading at all" ],
             [ "1.1.17", "Deprecated iOS 5 support" ],
             [ "1.1.16", "A bit faster emojis ordering code" ]
         ],
@@ -94,6 +96,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.7.2~b3", "Fixed tweak not loading at all" ],
             [ "1.7.2~b2", "Requires latest dependencies" ]
         ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
@@ -107,6 +110,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.6.1", "Fixed tweak not loading at all" ],
             [ "1.6.0", "Stable release, requires latest dependencies" ]
         ],
         "description": "<p>Latest emojis for iOS 8.3 - 8.4</p>\
@@ -120,6 +124,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.6.1", "Fixed tweak not loading at all" ],
             [ "1.6.0", "Stable release, requires latest dependencies" ]
         ],
         "description": "<p>Latest emojis for iOS 9.0 - 9.3</p>\

@@ -404,6 +404,23 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojilayout.html
 Name: EmojiLayout
 
+Package: com.ps.emojilayout
+Version: 1.1.18
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 132
+Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3)
+Filename: ./debs/com.ps.emojilayout_1.1.18_iphoneos-arm.deb
+Size: 33808
+MD5sum: 1a041dd4afcf2f726c238a14ef328ce7
+SHA1: b95727f76db7d1f7d1c871f8ae60602acffbc823
+SHA256: a646b427e55991176fbd6aaf4547ad1d5451ebcf83456a39ab2ee493c4583c48
+Section: Tweaks
+Description: Layout the emoji keyboard.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilayout.html
+Name: EmojiLayout
+
 Package: com.ps.emojilibrary
 Version: 1.1.3
 Architecture: iphoneos-arm
@@ -507,6 +524,24 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_3.html
 Name: EmojiPort (iOS 8.3-8.4)
 
+Package: com.ps.emojiportfix
+Version: 1.6.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 268
+Depends: firmware (>= 8.3), firmware (<< 9.0), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilocalization (>= 1.1), com.ps.emojiresources (>= 1.1), com.ps.emojilibrary (>= 1.0.19~b6)
+Conflicts: org.thebigboss.emoji83plus, com.ps.emoji9fix, com.ps.emoji10fix
+Filename: ./debs/com.ps.emojiportfix_1.6.1_iphoneos-arm.deb
+Size: 9890
+MD5sum: b7783fe6522ecd3d2cc6d335ce533f9b
+SHA1: 4237ce1a95751b3367717f007a2ff12ca3968e16
+SHA256: a68c5fde96f281a58250482b59db00f9d18e303c04260e0587bccbfe63b8eae8
+Section: Tweaks
+Description: Latest emojis for iOS 8.3-8.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_3.html
+Name: EmojiPort (iOS 8.3-8.4)
+
 Package: com.ps.emojiportlegacy
 Version: 1.7.2~b2
 Architecture: iphoneos-arm
@@ -519,6 +554,24 @@ Size: 57766
 MD5sum: 46ad19654776389f9055197cf9741820
 SHA1: d98aaee2999e0bcf9e816d52798ab486480bb7f6
 SHA256: 180fa5013c2fb4e131f8d3d41e34789d48eabbfc2e95b40d7c279103bcbd6a36
+Section: Tweaks
+Description: Latest emojis for iOS 6.0-8.2
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
+Name: EmojiPort (iOS 6.0-8.2)
+
+Package: com.ps.emojiportlegacy
+Version: 1.7.2~b3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 376
+Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.17), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary, firmware (<< 7.0) | com.ps.emojiresources (>= 1.1)
+Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
+Filename: ./debs/com.ps.emojiportlegacy_1.7.2~b3_iphoneos-arm.deb
+Size: 58778
+MD5sum: 90a2cfeb5bb74241010e14f631599052
+SHA1: 7010dd15cca63af2d2cad2ac14c8790897377f63
+SHA256: 812048c8d3ba5ddc023802a50a4eae2877f22a76b3e0705d4a2023481d170160
 Section: Tweaks
 Description: Latest emojis for iOS 6.0-8.2
 Author: PoomSmart
@@ -591,6 +644,24 @@ Size: 8688
 MD5sum: 4bcafab6f12e4d6f123fde5988f2900a
 SHA1: e6d88928368473c8a093bb085710f0e9e17ace5b
 SHA256: 46f05145c04df9f625e52de73efe3cf1223ff2d52ea32922055153c66e1f6efb
+Section: Tweaks
+Description: Latest emojis for iOS 9.0-9.3
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_9.html
+Name: EmojiPort (iOS 9.0-9.3)
+
+Package: com.ps.emojiportps
+Version: 1.6.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 268
+Depends: firmware (>= 9.0), firmware (<< 10.0), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilibrary (>= 1.0.19~b6), firmware (>= 9.1) | com.ps.emojilocalization (>= 1.1), firmware (>= 9.1) | com.ps.emojiresources (>= 1.1)
+Conflicts: org.thebigboss.emoji83plus, com.hamzasood.emoji9, com.ps.emoji9ps, com.ps.emoji10ps
+Filename: ./debs/com.ps.emojiportps_1.6.1_iphoneos-arm.deb
+Size: 8682
+MD5sum: cb37fc166c74c713e419c2c83a47c172
+SHA1: ca77c04a5bf5fafe368a1795e34277d0c868d1a1
+SHA256: 1c3abed4078f1117984ca92c5ce361b3e621498c9a3753270bcda76e1fa620eb
 Section: Tweaks
 Description: Latest emojis for iOS 9.0-9.3
 Author: PoomSmart
