@@ -263,6 +263,7 @@ tweaks = [
         "min_ios": "11.0",
         "description": "<p>Unlock 1440p and 2160p resolutions in iOS YouTube app.</p>",
         "changes": [
+            [ "0.0.3.4", "Enforce Metal for video decoding" ],
             [ "0.0.3.3", "Improved reliability of the feature for all devices" ],
             [ "0.0.3.2", "Removed video formats restrictions completely for those devices that the original hook won't just work" ],
             [ "0.0.3.1", "Perform late-hooks for CydiaSubstrate devices" ],

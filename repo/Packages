@@ -1198,6 +1198,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
 Name: YTUHD SW
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
 
+Package: com.ps.ytuhd
+Version: 0.0.3.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.ytuhd_0.0.3.4_iphoneos-arm.deb
+Size: 3622
+MD5sum: 722b5e59f2d6812d229e7fde935b10d9
+SHA1: 30a6e300ee48dd5ed32db4bcef5c5b9ef52e7bb5
+SHA256: 936f8dbe4f69641fc2744c2cb7317e0d5408569d40ae1f9a61a26069820e3b59
+Section: Tweaks
+Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD SW
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
 Package: org.thebigboss.camblur7
 Version: 1.6.4
 Architecture: iphoneos-arm
