@@ -33,7 +33,7 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "14.0",
         "changes": [
-            [ "1.3.27.3", "Fixed tweak not loading at all" ],
+            [ "1.3.27.4", "Fixed tweak not loading at all" ],
             [ "1.3.27", "Experimenting refactoring" ],
             [ "1.3.26", "Up-to-date CoreFoundation hack, fixing displaying of 3 emoji flags" ],
             [ "1.3.25", "Deleting couple emojis should now take one tap (iOS < 12.1)" ]
@@ -60,7 +60,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.1.17.1", "Fixed tweak not loading at all" ],
+            [ "1.1.19", "Fixed tweak not loading at all" ],
             [ "1.1.17", "Deprecated iOS 5 support" ],
             [ "1.1.16", "A bit faster emojis ordering code" ]
         ],
@@ -96,7 +96,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.7.2~b3", "Fixed tweak not loading at all" ],
+            [ "1.7.2~b4", "Fixed tweak not loading at all" ],
             [ "1.7.2~b2", "Requires latest dependencies" ]
         ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
@@ -110,7 +110,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.6.1", "Fixed tweak not loading at all" ],
+            [ "1.6.2", "Fixed tweak not loading at all" ],
             [ "1.6.0", "Stable release, requires latest dependencies" ]
         ],
         "description": "<p>Latest emojis for iOS 8.3 - 8.4</p>\
@@ -124,7 +124,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.6.1", "Fixed tweak not loading at all" ],
+            [ "1.6.2", "Fixed tweak not loading at all" ],
             [ "1.6.0", "Stable release, requires latest dependencies" ]
         ],
         "description": "<p>Latest emojis for iOS 9.0 - 9.3</p>\
@@ -137,7 +137,7 @@ tweaks = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
-            [ "1.3.1", "Fixed tweak not loading at all" ],
+            [ "1.3.2", "Fixed tweak not loading at all" ],
             [ "1.3.0", "Fixed crashing on iOS 10.1.1" ]
         ],
         "description": "<p>Latest emojis for iOS 10.0 - 11.4</p>\
@@ -150,7 +150,7 @@ tweaks = [
         "max_ios": "14.0",
         "strict_range": True,
         "changes": [
-            [ "1.0.7~b2", "Fixed tweak not loading at all" ],
+            [ "1.0.7~b3", "Fixed tweak not loading at all" ],
             [ "1.0.7~b1", "In preparation of upcoming new emojis in iOS 14" ],
             [ "1.0.6", "Fixed a bug with couple emojis" ]
         ],
@@ -178,7 +178,7 @@ tweaks = [
         "title": "Amber",
         "min_ios": "7.0",
         "changes": [
-            [ "0.0.3.6", "Fixed Amber swipe gestures not working on iOS 11+" ],
+            [ "0.0.3.7", "Fixed Amber swipe gestures not working on iOS 11+" ],
             [ "0.0.3.5", "Prevents other UI tweaks from being injected into mediaserverd" ],
             [ "0.0.3.4", "Overrides Torch system manual parameters" ],
             [ "0.0.3.3", "Flipswitch is not required for iOS 11+, Can now configure tweak in Settings" ],
