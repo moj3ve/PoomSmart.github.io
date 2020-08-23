@@ -47,24 +47,6 @@ Author: PoomSmart
 Name: Adguard Unbounded
 
 Package: com.ps.amber
-Version: 0.0.3.6
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 528
-Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Filename: ./debs/com.ps.amber_0.0.3.6_iphoneos-arm.deb
-Size: 36228
-MD5sum: 7128d11c6e887a54a8486bbf709952f8
-SHA1: fa0cf5df021a5cd6cf5d08ec0dbc3ff49f2b8985
-SHA256: c740acf70c64734f31e905dab16a0778ba7a5cb704fbe2543f980b084b375288
-Section: Tweaks
-Description: Amber-ify your LED torch.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/amber.html
-Name: Amber
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
-
-Package: com.ps.amber
 Version: 0.0.3.7
 Architecture: iphoneos-arm
 Maintainer: PoomSmart

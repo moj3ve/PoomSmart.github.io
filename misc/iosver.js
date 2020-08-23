@@ -6,6 +6,10 @@ const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s";
 (function (document) {
 	"use strict";
 
+	if (navigator.userAgent.indexOf("Dark") != -1) {
+		document.body.setAttribute("data-theme", "dark");
+	}
+
 	function setMessage(m) {
 		document.getElementById("pt").innerHTML = m;
 	}
