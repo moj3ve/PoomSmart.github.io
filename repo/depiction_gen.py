@@ -278,6 +278,20 @@ tweaks = [
             [ "0.0.2", "Removed spoofing as iPhone 11 part" ],
             [ "0.0.1", "Initial release" ]
         ]
+    },
+    {
+        "file": "youpip",
+        "title": "YouPIP",
+        "description": "\
+                <p>Enable PIP in native YouTube app.</p>\
+                <p><a href=\"https://www.reddit.com/r/jailbreak/comments/8zsze4/release_youpip_enable_native_pip_feature_in/\">Read related reddit article</a></p>",
+        "changes": [
+            [ "0.0.6.3", "Supports YouTube version 15.34.3" ],
+            [ "0.0.6.2", "Pip button show/hide animation now aligns with the rest of the buttons" ],
+            [ "0.0.6.1", "Updated PiP button assets to match Material Design (thanks @tychoregter)" ],
+            [ "0.0.6", "Tap the PiP button in the video overlay to trigger PiP" ],
+            [ "0.0.5", "Tap and hold the video to trigger PiP" ]
+        ]
     }
 ]
 
