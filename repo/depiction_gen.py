@@ -162,6 +162,7 @@ tweaks = [
         "title": "LetMeBlock",
         "min_ios": "9.0",
         "changes": [
+            [ "0.0.7.5", "Compiled with ARC to support devices with libhooker (Credits to @Diatrus)" ],
             [ "0.0.7.4", "Removed unneeded bits" ],
             [ "0.0.7", "Deprecated libSubstitrate the right way" ]
         ],
