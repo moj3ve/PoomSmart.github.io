@@ -333,25 +333,6 @@ Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
 Package: com.ps.emojiattributes
-Version: 1.3.27.3
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 304
-Depends: firmware (>= 6.0), mobilesubstrate
-Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.3.27.3_iphoneos-arm.deb
-Size: 26946
-MD5sum: 81d2f583a95c9695a1cd7fa67ea7a027
-SHA1: 92e058b93efffda82e7118ccb6f5c8f6fec53987
-SHA256: 687d6a605ee935172b300d4680daab4ec44ba8d697f2bb2eb9e7a5d3a3255308
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
 Version: 1.3.27.4
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -561,24 +542,6 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_3.html
 Name: EmojiPort (iOS 8.3-8.4)
 
 Package: com.ps.emojiportfix
-Version: 1.6.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 268
-Depends: firmware (>= 8.3), firmware (<< 9.0), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilocalization (>= 1.1), com.ps.emojiresources (>= 1.1), com.ps.emojilibrary (>= 1.0.19~b6)
-Conflicts: org.thebigboss.emoji83plus, com.ps.emoji9fix, com.ps.emoji10fix
-Filename: ./debs/com.ps.emojiportfix_1.6.1_iphoneos-arm.deb
-Size: 9890
-MD5sum: b7783fe6522ecd3d2cc6d335ce533f9b
-SHA1: 4237ce1a95751b3367717f007a2ff12ca3968e16
-SHA256: a68c5fde96f281a58250482b59db00f9d18e303c04260e0587bccbfe63b8eae8
-Section: Tweaks
-Description: Latest emojis for iOS 8.3-8.4
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_3.html
-Name: EmojiPort (iOS 8.3-8.4)
-
-Package: com.ps.emojiportfix
 Version: 1.6.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -608,24 +571,6 @@ Size: 57766
 MD5sum: 46ad19654776389f9055197cf9741820
 SHA1: d98aaee2999e0bcf9e816d52798ab486480bb7f6
 SHA256: 180fa5013c2fb4e131f8d3d41e34789d48eabbfc2e95b40d7c279103bcbd6a36
-Section: Tweaks
-Description: Latest emojis for iOS 6.0-8.2
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
-Name: EmojiPort (iOS 6.0-8.2)
-
-Package: com.ps.emojiportlegacy
-Version: 1.7.2~b3
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 376
-Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.17), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary, firmware (<< 7.0) | com.ps.emojiresources (>= 1.1)
-Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
-Filename: ./debs/com.ps.emojiportlegacy_1.7.2~b3_iphoneos-arm.deb
-Size: 58640
-MD5sum: 63df9180e4eb7650a3536ab0368309f3
-SHA1: 628b2cdee8065e296f2499a1a2c6751a77e84082
-SHA256: e1bbf648c6dc6cf8166fce080b49cfa4b4769d6ed1923f849a41691bc85424f2
 Section: Tweaks
 Description: Latest emojis for iOS 6.0-8.2
 Author: PoomSmart
@@ -687,24 +632,6 @@ Name: EmojiPort (iOS 12.0-14.0)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
 
 Package: com.ps.emojiportpe
-Version: 1.0.7~b2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 300
-Depends: firmware (>= 12.0), firmware (<< 14.1), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilibrary (>= 1.1.4~b1), com.ps.emojiport10resources (>= 1.0.3~b3)
-Filename: ./debs/com.ps.emojiportpe_1.0.7~b2_iphoneos-arm.deb
-Size: 9658
-MD5sum: 019746ca05d73b125c47f14e870eaf46
-SHA1: ae3e0d04527ff60cec04367759f36fe4016e0322
-SHA256: 535709d664f89255b99ff4037d924f1b9d3d7843a05747c51f373c2f5f1c4ce6
-Section: Tweaks
-Description: Latest emojis for iOS 12.0-14.0
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
-Name: EmojiPort (iOS 12.0-14.0)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
-
-Package: com.ps.emojiportpe
 Version: 1.0.7~b3
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -741,24 +668,6 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiport_9.html
 Name: EmojiPort (iOS 9.0-9.3)
 
 Package: com.ps.emojiportps
-Version: 1.6.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 268
-Depends: firmware (>= 9.0), firmware (<< 10.0), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilibrary (>= 1.0.19~b6), firmware (>= 9.1) | com.ps.emojilocalization (>= 1.1), firmware (>= 9.1) | com.ps.emojiresources (>= 1.1)
-Conflicts: org.thebigboss.emoji83plus, com.hamzasood.emoji9, com.ps.emoji9ps, com.ps.emoji10ps
-Filename: ./debs/com.ps.emojiportps_1.6.1_iphoneos-arm.deb
-Size: 8682
-MD5sum: cb37fc166c74c713e419c2c83a47c172
-SHA1: ca77c04a5bf5fafe368a1795e34277d0c868d1a1
-SHA256: 1c3abed4078f1117984ca92c5ce361b3e621498c9a3753270bcda76e1fa620eb
-Section: Tweaks
-Description: Latest emojis for iOS 9.0-9.3
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_9.html
-Name: EmojiPort (iOS 9.0-9.3)
-
-Package: com.ps.emojiportps
 Version: 1.6.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -788,25 +697,6 @@ Size: 13316
 MD5sum: 290736ab9aef261db87b708d357adc9c
 SHA1: 9893c26214d2af2049a3419254826f74e42fb8d0
 SHA256: ee2c12c572768a1f77242877d2c277f32f410c532eb1717a2e353157725deee1
-Section: Tweaks
-Description: Latest emojis for iOS 10.0-11.4
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_10.html
-Name: EmojiPort (iOS 10.0-11.4)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_10.json
-
-Package: com.ps.emojiportwt
-Version: 1.3.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 332
-Depends: firmware (>= 10.0), firmware (<< 12.0), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilibrary (>= 1.1.0), com.ps.emojiport10resources (>= 1.0.5)
-Conflicts: com.ps.emoji10wt
-Filename: ./debs/com.ps.emojiportwt_1.3.1_iphoneos-arm.deb
-Size: 13596
-MD5sum: 2b7d513fa40992ea23e48d26b4bdabcc
-SHA1: 2273fe6aaeeb9bbc923626c66f47c15f77665898
-SHA256: 23580c3e336de13bed69057ac86f8a8d8c6ec8836e4243d0f8e18f224acf05d0
 Section: Tweaks
 Description: Latest emojis for iOS 10.0-11.4
 Author: PoomSmart
@@ -966,24 +856,6 @@ Name: LetMeBlock
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
 
 Package: com.ps.letmeblock
-Version: 0.0.7.4
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/com.ps.letmeblock_0.0.7.4_iphoneos-arm.deb
-Size: 5052
-MD5sum: 8a9810dc80973d249b26dd5166a5c795
-SHA1: 15f6aaa8e86d6c3e593cef85fcb4917e025c6dce
-SHA256: 886d888c90b8749fb96c4d8c4ef720017c517b408024d25a94f12361df6acfbe
-Section: Tweaks
-Description: Make mDNSResponder care more about /etc/hosts
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
-Name: LetMeBlock
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
-
-Package: com.ps.letmeblock
 Version: 0.0.7.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -1088,24 +960,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/pearltracking.html
 Name: PearlTracking
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pearltracking.json
-
-Package: com.ps.pencilpro
-Version: 0.0.2.3
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 200
-Depends: firmware (>= 9.0), gsc.ipad, mobilesubstrate
-Filename: ./debs/com.ps.pencilpro_0.0.2.3_iphoneos-arm.deb
-Size: 6144
-MD5sum: 3c3903f9a5aed88514bce6baf5812ee8
-SHA1: deb27588314b6dcb17e4397e07f6610e540cfd4f
-SHA256: 206b6408b7783b5098ab42af270e80f2336a99c5e5a972087fa9ed1f9cf41664
-Section: Tweaks
-Description: Apple Pencil can do better.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/pencilpro.html
-Name: Pencil Pro
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pencilpro.json
 
 Package: com.ps.pencilpro
 Version: 0.0.2.4
@@ -1687,124 +1541,6 @@ Author: Spica T
 Name: WhatsAllEmojis
 
 Package: com.spicat.youpip
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 136
-Depends: mobilesubstrate, me.alfhaily.cercube, firmware (>= 9.0)
-Filename: ./debs/com.spicat.youpip_0.0.1_iphoneos-arm.deb
-Size: 2596
-MD5sum: f14fb03b09f889c014d15fc0a2bde2f9
-SHA1: 896b0d9f9c9b1ab0cd48c1b66a5be3111717a593
-SHA256: b3b98f8376554dcf677227afeab53f984338616e0706af59b77f01e26cccc89e
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Name: YouPip
-
-Package: com.spicat.youpip
-Version: 0.0.4.7
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 296
-Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.youpip_0.0.4.7_iphoneos-arm.deb
-Size: 12156
-MD5sum: 7adfeb100728b68b87f0032565b62755
-SHA1: f91082e6054373398e2968b152e53fb3f5522274
-SHA256: a684153b3a8d1c2e2a96975fc8025f839ed9f59f069c908bc537234741e3d5cc
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Depiction: https://spicat.github.io/depiction/youpip.html
-Name: YouPIP
-
-Package: com.spicat.youpip
-Version: 0.0.4.8
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 296
-Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.youpip_0.0.4.8_iphoneos-arm.deb
-Size: 12254
-MD5sum: d1ac3e06d6fafec7a3953d01308408e9
-SHA1: e77765823da888294015953e2561fd579aa358b2
-SHA256: c7b13e3bffe6a5872062a85d9b5ad81ec9132ae5a0746046da9e7e5b35374d89
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Depiction: https://spicat.github.io/depiction/youpip.html
-Name: YouPIP
-
-Package: com.spicat.youpip
-Version: 0.0.5
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 296
-Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.youpip_0.0.5_iphoneos-arm.deb
-Size: 11424
-MD5sum: 9a32eaada65e171c51a1d6fa82767b2d
-SHA1: 0fff3f962d5e58f546dad673ce1211c55882d1db
-SHA256: e7816cd38cbe3927fe6ca450e2d5ce999b54ed1467d173e87186211539b9222e
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Depiction: https://spicat.github.io/depiction/youpip.html
-Name: YouPIP
-
-Package: com.spicat.youpip
-Version: 0.0.6
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 304
-Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.youpip_0.0.6_iphoneos-arm.deb
-Size: 14248
-MD5sum: 7fc9f1a316f3f00e60994bf7dfb2e3e4
-SHA1: 7baa0d4482d03fd41c3ee8ecf3ccd3e86fe4be11
-SHA256: d6ef3984b392aaec8ce958efb96418188728a9722dad91ae0b4c28dd358fed27
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Depiction: https://spicat.github.io/depiction/youpip.html
-Name: YouPIP
-
-Package: com.spicat.youpip
-Version: 0.0.6.1
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 308
-Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.youpip_0.0.6.1_iphoneos-arm.deb
-Size: 14220
-MD5sum: affe4eb89773c37fb463040b2410727f
-SHA1: 99157c259ca8d5fc8a7c4fdca2b82eb9c4e3a26b
-SHA256: 685a1a88562d52b3fe0841995ebc0abdfe5aa4a6bb40179480f11a2dcfa4bc70
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Depiction: https://spicat.github.io/depiction/youpip.html
-Name: YouPIP
-
-Package: com.spicat.youpip
-Version: 0.0.6.2
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 308
-Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.youpip_0.0.6.2_iphoneos-arm.deb
-Size: 14274
-MD5sum: 9270717b767212457976c775abc85da5
-SHA1: ad31bbd5c922cfabeb7c9099acec796f800c296a
-SHA256: ee93788fb71258c836f5ee38ed27279b722126abd1314dfaa3639f0f08b9ae96
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Depiction: https://spicat.github.io/depiction/youpip.html
-Name: YouPIP
-
-Package: com.spicat.youpip
 Version: 0.0.6.3
 Architecture: iphoneos-arm
 Maintainer: SpicaT
@@ -1853,22 +1589,6 @@ Section: Addons (Flipswitch)
 Description: Flipswitch for volume change with buttons
 Author: PoomSmart
 Name: Change Vol With Buttons FS
-
-Package: org.thebigboss.dismissprogress
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 152
-Depends: firmware (>= 6.0)
-Filename: ./debs/org.thebigboss.dismissprogress_1.0.4_iphoneos-arm.deb
-Size: 4784
-MD5sum: 5cfb42b8d599bf51c32462c9b3d46772
-SHA1: 00305dc60d2557d32b2c495b5bce7bda29085909
-SHA256: 0ba1ca96a3e167085b341b09838e1be1f8a9030863d17665687336fc60d53f3c
-Section: Tweaks
-Description: Dismiss installation window without closing cydia.
-Author: PoomSmart
-Name: DismissProgress
 
 Package: org.thebigboss.dismissprogress
 Version: 1.1.1
