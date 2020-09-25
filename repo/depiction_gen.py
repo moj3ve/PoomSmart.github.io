@@ -33,6 +33,7 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "14.0",
         "changes": [
+            [ "1.3.28~b1", "Initial iOS 14 support" ],
             [ "1.3.27.4", "Fixed tweak not loading at all" ],
             [ "1.3.27", "Experimenting refactoring" ],
             [ "1.3.26", "Up-to-date CoreFoundation hack, fixing displaying of 3 emoji flags" ],
