@@ -1361,6 +1361,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
 Name: YTUHD SW
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
 
+Package: com.ps.ytuhd
+Version: 0.0.3.5~b1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.ytuhd_0.0.3.5~b1_iphoneos-arm.deb
+Size: 4440
+MD5sum: 9a63d0cc74f8106846b32ac5ebe64acb
+SHA1: 9a22dbeddf71ec771ec0c85148001a3294a17d46
+SHA256: 1ab454492c11573c1948bf9d66948e9f3d4a9aeff02864e20e3e1b771ab3a24e
+Section: Tweaks
+Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD SW
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
 Package: com.spicat.appcolorclose
 Version: 1.2
 Architecture: iphoneos-arm
@@ -1589,6 +1607,24 @@ Size: 10440
 MD5sum: 57d8c8080d10e418511e73da282f59bf
 SHA1: c4e9d9080fabbca419937a4551c29257c5805b50
 SHA256: 3de58d1d74afc99634fe21c833e08b8c11ab80b22473100158e37c2c71cc3acc
+Section: Tweaks
+Description: Enable PIP in native YouTube app.
+Author: SpicaT
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPIP
+Sileodepiction: https://poomsmart.github.io/repo/depictions/youpip.json
+
+Package: com.spicat.youpip
+Version: 0.0.6.4~b1
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 212
+Depends: mobilesubstrate, firmware (>= 14.0) | com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
+Filename: ./debs/com.spicat.youpip_0.0.6.4~b1_iphoneos-arm.deb
+Size: 20552
+MD5sum: b2e8f2b670e26c919ee537782c19527a
+SHA1: 1d240915a138d67cd73db943637f35c93500e1b2
+SHA256: 6591f02f2d312132535bc4eb4dd672531bf96a11138fcee64e4be848f1a2feaf
 Section: Tweaks
 Description: Enable PIP in native YouTube app.
 Author: SpicaT
