@@ -275,7 +275,7 @@
 						<li style="color:red;">If BytaFont app cannot be run as root (for example: on iOS 9.3.5 with stashing tweak), you cannot proceed and have
 							to choose another method</li>
 					</b>
-                    <li>Install BytaFont app (<b>BytaFont 3</b> for iOS 9, <b>BytaFont 2</b> for iOS 7 - 8, <b>BytaFont</b> for iOS 5-6)</li>
+                    <li>Install BytaFont app (<b>BytaFont 3</b> for iOS 9, <b>BytaFont 2</b> for iOS 7 - 8, <b>BytaFont</b> for iOS 5 - 6)</li>
                     <li>Add this Cydia repository:
                         <a href="https://vxbakerxv.github.io/repo">https://vxbakerxv.github.io/repo</a>
                     </li>
@@ -324,7 +324,7 @@
                 <h4>Download a compatible font (choose one)</h4>
                 <ol>
                     <li>
-                        <a href="https://raw.github.com/PoomSmart/EmojiLibrary/master/Font-13-Native/AppleColorEmoji@2x.ttc">iOS "LATEST" font for iOS 12+</a>
+                        <a href="https://raw.github.com/PoomSmart/EmojiLibrary/master/Font-14-Native/AppleColorEmoji.ttc">iOS "LATEST" font for iOS 12+</a>
                     </li>
                     <li>
                         <a href="https://raw.github.com/PoomSmart/EmojiLibrary/master/Font-13/AppleColorEmoji@2x.ttc">iOS "LATEST" font for iOS 10 - 11</a>
@@ -352,8 +352,10 @@
                 <ol>
                     <li>For iOS 5.1 - 8.1 users, place downloaded files at
                         <code>/System/Library/Fonts/Cache</code> on your device.</li>
-                    <li>For iOS 8.2+ users, place downloaded files at
+                    <li>For iOS 8.2 - 14.1 users, place downloaded files at
                         <code>/System/Library/Fonts/Core</code> on your device.</li>
+                    <li>For iOS 14.2+ users, place downloaded files at
+                        <code>/System/Library/Fonts/CoreAdditions</code> on your device.</li>
                 </ol>
                 <h4 style="color:red;">Important Notes</h4>
                 <ol>
@@ -389,7 +391,8 @@
                 <p>BytaFont (well, any versions) is known to create problems more than profits because it has to swap a new emoji font with the default one. If the swap fails due to there is no enough disk space for the font or anything else, the emoji keyboard
                     is messed up.</p>
                 <p>To fix this, you have to see what happened inside the directory
-                    <code>/System/Library/Fonts/Core</code> (iOS 8.2+) or
+                    <code>/System/Library/Fonts/CoreAdditions</code> (iOS 14.2+), 
+                    <code>/System/Library/Fonts/Core</code> (iOS 8.2 - iOS 14.1) or
                     <code>/System/Library/Fonts/Cache</code> otherwise. The original font should still be there, but maybe with a wrong file extension.</p>
                 <ul>
                     <li>For
@@ -486,6 +489,10 @@
                     <li>Display issue of the three flag emojis (iOS &lt; 11.2)</li>
                     <li>Emoji split and wrong glyph size issues on websites (iOS &lt; 10)</li>
                     <li>Emoji won't combine (iOS 5.1, WebCore version too old)</li>
+                </ul>
+                <h3>EmojiFontManager</h3>
+                <ul>
+                    <li>Font overriding does not seem to work on iOS 14 Safari</li>
                 </ul>
             </div>
         </div>

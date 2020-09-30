@@ -33,6 +33,7 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "14.0",
         "changes": [
+            [ "1.4~b1", "Support for iOS 14.2 emojis" ],
             [ "1.3.28~b1", "Initial iOS 14 support" ],
             [ "1.3.27.4", "Fixed tweak not loading at all" ],
             [ "1.3.27", "Experimenting refactoring" ],
@@ -73,6 +74,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.2~b1", "Added iOS 14.2 emojis" ],
             [ "1.1.4~b2", "In preparation of upcoming new emojis in iOS 14" ],
             [ "1.1.3", "Fixed some emojis not having skin tone options (iOS < 10)" ]
         ],
@@ -152,6 +154,7 @@ tweaks = [
         "max_ios": "14.0",
         "strict_range": True,
         "changes": [
+            [ "1.0.7~b4", "Overrides .stringsdict files related to emojis" ],
             [ "1.0.7~b3", "Fixed tweak not loading at all" ],
             [ "1.0.7~b1", "In preparation of upcoming new emojis in iOS 14" ],
             [ "1.0.6", "Fixed a bug with couple emojis" ]
