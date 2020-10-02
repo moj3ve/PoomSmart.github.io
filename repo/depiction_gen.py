@@ -33,6 +33,7 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "14.0",
         "changes": [
+            [ "1.4~b2", "Prevent crashing from hooking undefined function" ],
             [ "1.4~b1", "Support for iOS 14.2 emojis" ],
             [ "1.3.28~b1", "Initial iOS 14 support" ],
             [ "1.3.27.4", "Fixed tweak not loading at all" ],
