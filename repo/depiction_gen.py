@@ -155,6 +155,7 @@ tweaks = [
         "max_ios": "14.0",
         "strict_range": True,
         "changes": [
+            [ "1.0.7~b5", "Overrides search engine model related to emojis" ],
             [ "1.0.7~b4", "Overrides .stringsdict files related to emojis" ],
             [ "1.0.7~b3", "Fixed tweak not loading at all" ],
             [ "1.0.7~b1", "In preparation of upcoming new emojis in iOS 14" ],
