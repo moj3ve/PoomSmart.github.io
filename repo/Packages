@@ -295,63 +295,6 @@ Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
 Package: com.ps.emojiattributes
-Version: 1.3.27
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 304
-Depends: firmware (>= 6.0), mobilesubstrate
-Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.3.27_iphoneos-arm.deb
-Size: 26532
-MD5sum: 3a3696930e89c08e62ba6bac96d253fd
-SHA1: 0c0bba2ffdb858552e6c54e4d616ff22ba6885e2
-SHA256: d99ed0637ac3f89d71112d999d3688cbf09b81dc2e973cd6febca477e251fa13
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
-Version: 1.3.27.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 304
-Depends: firmware (>= 6.0), mobilesubstrate
-Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.3.27.1_iphoneos-arm.deb
-Size: 26952
-MD5sum: a36602c50b39ac32ab512b9715816924
-SHA1: e2fcfc67568754e0d26f6780a8510395fc2dac8d
-SHA256: faf654e5a6c1d680cf2adfb0d91c254bc8d3e326c4a5bd664e947351cf59f165
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
-Version: 1.3.27.4
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 304
-Depends: firmware (>= 6.0), mobilesubstrate
-Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.3.27.4_iphoneos-arm.deb
-Size: 26998
-MD5sum: ddd778462f10e74611a48c49d4dcc7ae
-SHA1: 089b308225a4dfa84478025ab826ea70672cd8e1
-SHA256: 028ced1d671280c9581d2f81d71dae89baaff5e53b1cb733a1a119bd543e6c97
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
 Version: 1.3.28~b1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -474,6 +417,25 @@ Size: 40910
 MD5sum: 6eb2752f74e995ac8df2314c79583e5f
 SHA1: 924c7e53433ccc976a65ce98b4d7eb54d1d8fe9f
 SHA256: 0b4548f25f7bdaa034080ba50954d493f6f707e3b444a960c3dbe07beabafdf1
+Section: Tweaks
+Description: Emoji font override and management.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
+Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
+Name: EmojiFontManager
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
+
+Package: com.ps.emojifontmanager
+Version: 0.0.8.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 340
+Depends: mobilesubstrate, preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.11.3)
+Filename: ./debs/com.ps.emojifontmanager_0.0.8.2_iphoneos-arm.deb
+Size: 41724
+MD5sum: df2208d6acc2dd2afc41f541faa0d8d4
+SHA1: 2f00c99687c43b47884640e4d7317da11bf20656
+SHA256: 4ab174458676504aa8647d983b353df58dff52ae9d3e327b49c65c6b1c455d7f
 Section: Tweaks
 Description: Emoji font override and management.
 Author: PoomSmart
@@ -1721,42 +1683,6 @@ Section: Tweaks
 Description: Ensure you get latest emojis for WhatsApp stamps.
 Author: Spica T
 Name: WhatsAllEmojis
-
-Package: com.spicat.youpip
-Version: 0.0.6.3
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 212
-Depends: mobilesubstrate, com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.youpip_0.0.6.3_iphoneos-arm.deb
-Size: 10440
-MD5sum: 57d8c8080d10e418511e73da282f59bf
-SHA1: c4e9d9080fabbca419937a4551c29257c5805b50
-SHA256: 3de58d1d74afc99634fe21c833e08b8c11ab80b22473100158e37c2c71cc3acc
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
-Name: YouPIP
-Sileodepiction: https://poomsmart.github.io/repo/depictions/youpip.json
-
-Package: com.spicat.youpip
-Version: 0.0.6.4~b1
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 212
-Depends: mobilesubstrate, firmware (>= 14.0) | com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.youpip_0.0.6.4~b1_iphoneos-arm.deb
-Size: 20552
-MD5sum: b2e8f2b670e26c919ee537782c19527a
-SHA1: 1d240915a138d67cd73db943637f35c93500e1b2
-SHA256: 6591f02f2d312132535bc4eb4dd672531bf96a11138fcee64e4be848f1a2feaf
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
-Name: YouPIP
-Sileodepiction: https://poomsmart.github.io/repo/depictions/youpip.json
 
 Package: org.thebigboss.camblur7
 Version: 1.6.4

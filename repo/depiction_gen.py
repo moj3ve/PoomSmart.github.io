@@ -31,15 +31,12 @@ tweaks = [
         "file": "emojiattributes",
         "title": "EmojiAttributes",
         "min_ios": "5.1",
-        "max_ios": "14.0",
+        "max_ios": "14.1",
         "changes": [
             [ "1.4~b3", "Improved libicucore hooking, Updated emoji.bitmap for iOS 9 and below" ],
             [ "1.4~b2", "Prevent crashing from hooking undefined function" ],
             [ "1.4~b1", "Support for iOS 14.2 emojis" ],
             [ "1.3.28~b1", "Initial iOS 14 support" ],
-            [ "1.3.27.4", "Fixed tweak not loading at all" ],
-            [ "1.3.27", "Experimenting refactoring" ],
-            [ "1.3.26", "Up-to-date CoreFoundation hack, fixing displaying of 3 emoji flags" ],
             [ "1.3.25", "Deleting couple emojis should now take one tap (iOS < 12.1)" ]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
@@ -49,6 +46,7 @@ tweaks = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            [ "0.0.8.2", "Font override now works inside Safari iOS 13+." ],
             [ "0.0.8.1", "iOS 14 support." ],
             [ "0.0.7.2", "Fixed preferences not loading." ]
         ],
