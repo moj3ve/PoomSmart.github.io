@@ -46,6 +46,7 @@ tweaks = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            [ "0.0.8.3", "Fixed a potential crash for some user apps on launch." ],
             [ "0.0.8.2", "Font override now works inside Safari iOS 13+." ],
             [ "0.0.8.1", "iOS 14 support." ],
             [ "0.0.7.2", "Fixed preferences not loading." ]
