@@ -151,18 +151,19 @@ tweaks = [
     },
     {
         "file": "emojiport_12",
-        "title": "EmojiPort (iOS 12.0 - 14.0)",
+        "title": "EmojiPort (iOS 12.0 - 14.1)",
         "min_ios": "12.0",
-        "max_ios": "14.0",
+        "max_ios": "14.1",
         "strict_range": True,
         "changes": [
-            [ "1.0.7~b5", "Overrides search engine model related to emojis" ],
-            [ "1.0.7~b4", "Overrides .stringsdict files related to emojis" ],
+            [ "1.0.7~b6", "Updated supported iOS versions to be iOS 12.0 - 14.1" ],
+            [ "1.0.7~b5", "Overrides search engine model related to emojis (iOS 14+)" ],
+            [ "1.0.7~b4", "Overrides .stringsdict files related to emojis (iOS 14+)" ],
             [ "1.0.7~b3", "Fixed tweak not loading at all" ],
             [ "1.0.7~b1", "In preparation of upcoming new emojis in iOS 14" ],
             [ "1.0.6", "Fixed a bug with couple emojis" ]
         ],
-        "description": "<p>Latest emojis for iOS 12.0 - 14.0</p>\
+        "description": "<p>Latest emojis for iOS 12.0 - 14.1</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
