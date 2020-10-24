@@ -76,6 +76,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.2.1", "Stable release" ],
             [ "1.2~b1", "Added iOS 14.2 emojis" ],
             [ "1.1.4~b2", "In preparation of upcoming new emojis in iOS 14" ],
             [ "1.1.3", "Fixed some emojis not having skin tone options (iOS < 10)" ]
@@ -296,11 +297,8 @@ tweaks = [
                 <p>Enable PIP in native YouTube app.</p>\
                 <p><a href=\"https://www.reddit.com/r/jailbreak/comments/8zsze4/release_youpip_enable_native_pip_feature_in/\">Read related reddit article</a></p>",
         "changes": [
-            [ "0.0.6.3", "Supports YouTube version 15.34.3" ],
-            [ "0.0.6.2", "Pip button show/hide animation now aligns with the rest of the buttons" ],
-            [ "0.0.6.1", "Updated PiP button assets to match Material Design (thanks @tychoregter)" ],
-            [ "0.0.6", "Tap the PiP button in the video overlay to trigger PiP" ],
-            [ "0.0.5", "Tap and hold the video to trigger PiP" ]
+            [ "0.0.6.4~b1", "Workarond for YouTube version 15.37 or higher" ],
+            [ "0.0.6.3", "Supports YouTube version 15.34.3" ]
         ]
     }
 ]
