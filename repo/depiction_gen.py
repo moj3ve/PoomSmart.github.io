@@ -46,11 +46,7 @@ tweaks = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
-            [ "0.0.8.4", "Use com.apple.UIKit defaults instead of Cephei preferences to overcome sandbox issue" ],
-            [ "0.0.8.3", "Fixed a potential crash for some user apps on launch." ],
-            [ "0.0.8.2", "Font override now works inside Safari iOS 13+." ],
-            [ "0.0.8.1", "iOS 14 support." ],
-            [ "0.0.7.2", "Fixed preferences not loading." ]
+            [ "0.0.8.4", "Use com.apple.UIKit defaults instead of Cephei preferences to overcome sandbox issue" ]
         ],
         "description": "<p><b>**EmojiPort needs to be installed if you also want new emojis.**</b> This tweak allows you to override system's emoji font without swapping them. Access <b>Settings app &gt; EmojFontManager</b>\
                         to choose your font. Fonts (folder with extension .font AND having AppleColorEmoji@2x.ttf/.ttc font inside)\
@@ -76,10 +72,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
-            [ "1.2.1", "Stable release" ],
-            [ "1.2~b1", "Added iOS 14.2 emojis" ],
-            [ "1.1.4~b2", "In preparation of upcoming new emojis in iOS 14" ],
-            [ "1.1.3", "Fixed some emojis not having skin tone options (iOS < 10)" ]
+            [ "1.2.1", "Stable release, iOS 14.2 emojis added" ]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
                     algorithms and functionalities that handle any kind of emojis - display as images properly. Developers\
@@ -157,13 +150,7 @@ tweaks = [
         "max_ios": "14.1",
         "strict_range": True,
         "changes": [
-            [ "1.0.9", "Properly hook C++ function for iOS 14" ],
-            [ "1.0.7~b6", "Updated supported iOS versions to be iOS 12.0 - 14.1" ],
-            [ "1.0.7~b5", "Overrides search engine model related to emojis (iOS 14+)" ],
-            [ "1.0.7~b4", "Overrides .stringsdict files related to emojis (iOS 14+)" ],
-            [ "1.0.7~b3", "Fixed tweak not loading at all" ],
-            [ "1.0.7~b1", "In preparation of upcoming new emojis in iOS 14" ],
-            [ "1.0.6", "Fixed a bug with couple emojis" ]
+            [ "1.0.9", "Full support for iOS 14" ]
         ],
         "description": "<p>Latest emojis for iOS 12.0 - 14.1</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
