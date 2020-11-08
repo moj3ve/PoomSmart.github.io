@@ -157,6 +157,7 @@ tweaks = [
         "max_ios": "14.1",
         "strict_range": True,
         "changes": [
+            [ "1.0.8", "Properly hook C++ function for iOS 14" ],
             [ "1.0.7~b6", "Updated supported iOS versions to be iOS 12.0 - 14.1" ],
             [ "1.0.7~b5", "Overrides search engine model related to emojis (iOS 14+)" ],
             [ "1.0.7~b4", "Overrides .stringsdict files related to emojis (iOS 14+)" ],
