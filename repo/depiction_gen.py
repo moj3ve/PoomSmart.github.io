@@ -150,6 +150,7 @@ tweaks = [
         "max_ios": "14.1",
         "strict_range": True,
         "changes": [
+            [ "1.0.10", "Fixed crash on iOS 12.0" ],
             [ "1.0.9", "Full support for iOS 14" ]
         ],
         "description": "<p>Latest emojis for iOS 12.0 - 14.1</p>\
