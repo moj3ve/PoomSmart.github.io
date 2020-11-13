@@ -137,6 +137,7 @@ tweaks = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
+            [ "1.3.3", "Minor improvement" ],
             [ "1.3.2", "Fixed tweak not loading at all" ],
             [ "1.3.0", "Fixed crashing on iOS 10.1.1" ]
         ],
@@ -150,6 +151,7 @@ tweaks = [
         "max_ios": "14.1",
         "strict_range": True,
         "changes": [
+            [ "1.0.11", "Prevented crash when hooking C function on some devices" ],
             [ "1.0.10", "Fixed crash on iOS 12.0" ],
             [ "1.0.9", "Full support for iOS 14" ]
         ],
