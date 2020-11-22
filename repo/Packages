@@ -438,22 +438,6 @@ Author: PoomSmart
 Name: EmojiLocalization
 
 Package: com.ps.emojiport10resources
-Version: 1.1~b1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 116256
-Depends: firmware (>= 10.0)
-Filename: ./debs/com.ps.emojiport10resources_1.1~b1_iphoneos-arm.deb
-Size: 28852698
-MD5sum: 467c0278931fc9debfc3a7b64cbea1db
-SHA1: 91a0c4b3724160d5da790b00808eec1825a4ae10
-SHA256: 18d6af666496d8f8126c60ea08956a02cf6b92a184299b77123adaaac66e6fdb
-Section: Tweaks
-Description: Necessary resources for EmojiPort iOS 10 and higher.
-Author: PoomSmart
-Name: EmojiPort Resources (iOS 10+)
-
-Package: com.ps.emojiport10resources
 Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -524,24 +508,6 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
 Name: EmojiPort (iOS 6.0-8.2)
 
 Package: com.ps.emojiportpe
-Version: 1.0.10
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 300
-Depends: firmware (>= 12.0), firmware (<< 14.2), com.ps.emojiattributes (>= 1.3.27), com.ps.emojilibrary (>= 1.2~b1), com.ps.emojiport10resources (>= 1.1~b1)
-Filename: ./debs/com.ps.emojiportpe_1.0.10_iphoneos-arm.deb
-Size: 11274
-MD5sum: 320ede35cf5e5023ac8e0a24aa11f8bd
-SHA1: 21f0e2c56b314159b4f98d0d3df25ba2b931fbbd
-SHA256: c61ca5432ac7064dd0c7379f83815947fe1a7e69284d2e693505edd5e61903e7
-Section: Tweaks
-Description: Latest emojis for iOS 12.0-14.1
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
-Name: EmojiPort (iOS 12.0-14.1)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
-
-Package: com.ps.emojiportpe
 Version: 1.0.11
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -552,24 +518,6 @@ Size: 11190
 MD5sum: d6c98e6dcbdefb8d24f1a1dbb054a57c
 SHA1: 77318c39a1ed686a164a64c103e7762f49292d73
 SHA256: bbefab251777b175a61e3220cf111c2309c8ae9199a16bc18fd2a7dc64b49e79
-Section: Tweaks
-Description: Latest emojis for iOS 12.0-14.1
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
-Name: EmojiPort (iOS 12.0-14.1)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
-
-Package: com.ps.emojiportpe
-Version: 1.0.9
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 300
-Depends: firmware (>= 12.0), firmware (<< 14.2), com.ps.emojiattributes (>= 1.3.27), com.ps.emojilibrary (>= 1.2~b1), com.ps.emojiport10resources (>= 1.1~b1)
-Filename: ./debs/com.ps.emojiportpe_1.0.9_iphoneos-arm.deb
-Size: 10858
-MD5sum: d0bb594d599f68ccbfcb5521912ca608
-SHA1: da6293fa42321463eb9cbcc89be10a1bd115143d
-SHA256: 296df9859faf19d0f50b47d9ced2c1fef92e4be1172be7b8f19c80cc087b13e9
 Section: Tweaks
 Description: Latest emojis for iOS 12.0-14.1
 Author: PoomSmart
@@ -594,25 +542,6 @@ Description: Latest emojis for iOS 9.0-9.3
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiport_9.html
 Name: EmojiPort (iOS 9.0-9.3)
-
-Package: com.ps.emojiportwt
-Version: 1.3.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 332
-Depends: firmware (>= 10.0), firmware (<< 12.0), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilibrary (>= 1.1.0), com.ps.emojiport10resources (>= 1.0.5)
-Conflicts: com.ps.emoji10wt
-Filename: ./debs/com.ps.emojiportwt_1.3.2_iphoneos-arm.deb
-Size: 13600
-MD5sum: 074b23c084cfcdc90fa93eb2db8c756e
-SHA1: f65690d19f5f76ff2fd5aefcca5446384e8e81ed
-SHA256: 0f3c02f34da7a4075d8ec92203477fafdc9c244cd97a44cba811b5c28cbbf4d8
-Section: Tweaks
-Description: Latest emojis for iOS 10.0-11.4
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_10.html
-Name: EmojiPort (iOS 10.0-11.4)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_10.json
 
 Package: com.ps.emojiportwt
 Version: 1.3.3
@@ -698,22 +627,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/hdavatar.html
 Name: HD Avatar
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/hdavatar.json
-
-Package: com.ps.highgraphics
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 120
-Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: ./debs/com.ps.highgraphics_1.0.4_iphoneos-arm.deb
-Size: 3410
-MD5sum: 3217848a375be7023978bccd9911a5e5
-SHA1: f1decc7a2af263d2975025d7ce5f991786ec2c6e
-SHA256: b701e3e1c712103e9a0bcd85bc77c6f97eba7491f5ae7b3244ba2d9452ae7256
-Section: Tweaks
-Description: Best UIKit graphics for older devices.
-Author: PoomSmart
-Name: HighGraphics
 
 Package: com.ps.highgraphics
 Version: 1.0.5
@@ -1240,10 +1153,10 @@ Maintainer: PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Filename: ./debs/com.ps.ytuhd_0.0.3.6_iphoneos-arm.deb
-Size: 4056
-MD5sum: 3a29ab839261f49d97130b0594aefad9
-SHA1: ccd91f2778aabbad50b6d02e6b791712c9f941b8
-SHA256: 01ee714df1605dbf2f7d06be625061ffd6b92e9964324509b8f1e1765a3c74d2
+Size: 4150
+MD5sum: 74d8dca8867ee8ecec42a118cc37e4ce
+SHA1: 3630c0baf12963d70ef3a3c709dc7722d5cd6fd4
+SHA256: 8d6e45dbe98b7fe5357e0abe6f67072cce511e5a9492a6b1e87ea5dca6dba4a1
 Section: Tweaks
 Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart

@@ -36,9 +36,7 @@ tweaks = [
             [ "1.4.1~b5", "Improved libicucore hooking drastically for iOS < 13.2" ],
             [ "1.4~b3", "Improved libicucore hooking, Updated emoji.bitmap for iOS 9 and below" ],
             [ "1.4~b2", "Prevent crashing from hooking undefined function" ],
-            [ "1.4~b1", "Support for iOS 14.2 emojis" ],
-            [ "1.3.28~b1", "Initial iOS 14 support" ],
-            [ "1.3.25", "Deleting couple emojis should now take one tap (iOS < 12.1)" ]
+            [ "1.4~b1", "Support for iOS 14.2 emojis" ]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
     },
@@ -62,9 +60,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.1.19", "Fixed tweak not loading at all" ],
-            [ "1.1.17", "Deprecated iOS 5 support" ],
-            [ "1.1.16", "A bit faster emojis ordering code" ]
+            [ "1.1.19", "Fixed tweak not loading at all" ]
         ],
         "description": "<p>Layout emoji keyboard. Specifically, set number of rows and columns of emoji display.</p>"
     },
@@ -138,9 +134,7 @@ tweaks = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
-            [ "1.3.3", "Minor improvement" ],
-            [ "1.3.2", "Fixed tweak not loading at all" ],
-            [ "1.3.0", "Fixed crashing on iOS 10.1.1" ]
+            [ "1.3.3", "Minor improvement" ]
         ],
         "description": "<p>Latest emojis for iOS 10.0 - 11.4</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -152,9 +146,7 @@ tweaks = [
         "max_ios": "14.1",
         "strict_range": True,
         "changes": [
-            [ "1.0.11", "Prevented crash when hooking C function on some devices" ],
-            [ "1.0.10", "Fixed crash on iOS 12.0" ],
-            [ "1.0.9", "Full support for iOS 14" ]
+            [ "1.0.11", "Prevented crash when hooking C function on some devices" ]
         ],
         "description": "<p>Latest emojis for iOS 12.0 - 14.1</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -181,11 +173,7 @@ tweaks = [
         "title": "Amber",
         "min_ios": "7.0",
         "changes": [
-            [ "0.0.3.7", "Fixed Amber swipe gestures not working on iOS 11+" ],
-            [ "0.0.3.5", "Prevents other UI tweaks from being injected into mediaserverd" ],
-            [ "0.0.3.4", "Overrides Torch system manual parameters" ],
-            [ "0.0.3.3", "Flipswitch is not required for iOS 11+, Can now configure tweak in Settings" ],
-            [ "0.0.3.2", "Supports Quad-LEDs devices running iOS 13" ]
+            [ "0.0.3.7", "Fixed Amber swipe gestures not working on iOS 11+" ]
         ],
         "description": "<p>A CC module/Flipswitch tweak to allow setting of Amber LED, or both White and Amber LEDs.</p>"
     },
