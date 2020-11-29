@@ -594,6 +594,22 @@ Description: Flipswitch for FLEXible.
 Author: PoomSmart
 Name: FLEXible Flipswitch
 
+Package: com.ps.forceinpicture
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/com.ps.forceinpicture_1.0_iphoneos-arm.deb
+Size: 3748
+MD5sum: 7199881f9c170b42307fd3fdcdf3c858
+SHA1: 84db8cf504b92db12e05c9eadc027e1e2e69dbab
+SHA256: 1ae08ac58e729265762ac3e834de7576fe7a15c453d02872f0419fe42741d4ae
+Section: Tweaks
+Description: "Programmatically" enable picture in picture feature.
+Author: PoomSmart
+Name: ForceInPicture
+
 Package: com.ps.gboardall
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -1038,6 +1054,26 @@ Description: Manage packages via tap.
 Author: PoomSmart
 Depiction: https://poomSmart.github.io/repo/tapformore/index.html
 Name: TapForMore
+
+Package: com.ps.youpip
+Version: 0.0.7
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 212
+Depends: mobilesubstrate, firmware (>= 14.0) | gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/com.ps.youpip_0.0.7_iphoneos-arm.deb
+Size: 15170
+MD5sum: db5ebee6ecd6e1f340ac41a037e32bf6
+SHA1: 0ae977476bdd5db0a10d588a88fb7dc712ddf0fb
+SHA256: 1b4976a263eb98c33304dad255682707f10d2919fcf3c792f2532dcf27dc7b07
+Section: Tweaks
+Description: Enable PIP in native YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPIP
+Sileodepiction: https://poomsmart.github.io/repo/depictions/youpip.json
 
 Package: com.ps.ytuhd
 Version: 0.0.1
