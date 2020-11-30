@@ -278,7 +278,6 @@ tweaks = [
                 <p><a href=\"https://www.reddit.com/r/jailbreak/comments/8zsze4/release_youpip_enable_native_pip_feature_in/\">Read related reddit article</a></p>",
         "changes": [
             [ "0.0.7", "Experimental support for YouTube version 15.47" ],
-            [ "0.0.6.4~b1", "Workarond for YouTube version 15.37 or higher" ],
             [ "0.0.6.3", "Supports YouTube version 15.34.3" ]
         ]
     }

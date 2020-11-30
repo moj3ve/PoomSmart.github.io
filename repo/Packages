@@ -1271,25 +1271,6 @@ Author: SpicaT
 Icon: file:///Library/PreferenceLoader/Preferences/Flashorama/Flasho@2x.png
 Name: Flashorama
 
-Package: com.spicat.forceinpicture
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 0
-Depends: com.bingner.plutil, firmware (>= 11.0)
-Conflicts: com.cabralcole.forceinpicture
-Replaces: com.cabralcole.forceinpicture
-Provides: com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.forceinpicture_1.1_iphoneos-arm.deb
-Size: 974
-MD5sum: f6af24030118b2b835b86358ca2b1f92
-SHA1: 4f0cde8294fc83d38b8282a17d08da477f7dfe5f
-SHA256: a7e725279b7fe0a023bbb0f51a9b93cb549b63a4608257032d16631714640299
-Section: Tweaks
-Description: Enable picture in picture feature with no crashes.
-Author: SpicaT
-Name: ForceInPicture
-
 Package: com.spicat.internalphotos
 Version: 1.2.1
 Architecture: iphoneos-arm
@@ -1428,24 +1409,6 @@ Size: 31052
 MD5sum: f64af3e408783842dc970d9c661470f8
 SHA1: 6a8385af3a046b4d2dd99f38acd8901255f26000
 SHA256: b8920821fac21bb8cfccb5608ddb9541589a40d5d08ae2a30e7b1ea86b56f8e8
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
-Name: YouPIP
-Sileodepiction: https://poomsmart.github.io/repo/depictions/youpip.json
-
-Package: com.spicat.youpip
-Version: 0.0.6.4~b1
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 316
-Depends: mobilesubstrate, firmware (>= 14.0) | com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.youpip_0.0.6.4~b1_iphoneos-arm.deb
-Size: 32080
-MD5sum: 957f665149f79f974b696fb4e0099774
-SHA1: c6d338b85b17f31f97f87f25c98b5537ef660246
-SHA256: 462a16297a96eaa38a16c5c7cbdd4cadb33254af606517f7f6de2040dcc7d4e1
 Section: Tweaks
 Description: Enable PIP in native YouTube app.
 Author: SpicaT
