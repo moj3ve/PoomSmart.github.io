@@ -64,6 +64,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/amber.html
 Name: Amber
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
 
+Package: com.ps.amber
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Filename: ./debs/com.ps.amber_0.0.4_iphoneos-arm.deb
+Size: 38720
+MD5sum: bcd7b6fc51ce2227ef3f56df00bedb48
+SHA1: 2d1f84d421f76187bf724a41d59e941c6841d758
+SHA256: 9980e72c15eb26631d5e9f7c4c8c4fefde74686c2b982bbf86582eef2338a0f3
+Section: Tweaks
+Description: Amber-ify your LED torch.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
 Package: com.ps.anysuggestemojiim
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -845,6 +863,24 @@ Size: 15080
 MD5sum: 2c9e0100af57e8ac9e210fa7db743695
 SHA1: f2f075f4d555cf1c382578583d3fb68d5f7fd332
 SHA256: 24395a09484b6085f29154d39d58abfc88ba497f34558cb1098d52892e4e37e3
+Section: Tweaks
+Description: Utilize "high current" for Quad-LEDs devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
+Name: QuadHighCurrent
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
+
+Package: com.ps.quadhighcurrent
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 428
+Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Filename: ./debs/com.ps.quadhighcurrent_0.0.3_iphoneos-arm.deb
+Size: 19208
+MD5sum: ddd2c402763c3f42d56a5cea165a2b21
+SHA1: fdcd219b05c86f39061e0bf323e3eed2ad3398a3
+SHA256: 7363a01b40bbb1d54a8f4cdbc91c34c3e267b692306e13f78f0117e1d08cb523
 Section: Tweaks
 Description: Utilize "high current" for Quad-LEDs devices.
 Author: PoomSmart

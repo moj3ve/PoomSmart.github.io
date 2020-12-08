@@ -174,6 +174,7 @@ tweaks = [
         "title": "Amber",
         "min_ios": "7.0",
         "changes": [
+            [ "0.0.4", "Support H13 camera devices" ],
             [ "0.0.3.7", "Fixed Amber swipe gestures not working on iOS 11+" ]
         ],
         "description": "<p>A CC module/Flipswitch tweak to allow setting of Amber LED, or both White and Amber LEDs.</p>"
@@ -183,6 +184,7 @@ tweaks = [
         "title": "QuadHighCurrent",
         "min_ios": "10.0",
         "changes": [
+            [ "0.0.3", "Support H13 camera devices" ],
             [ "0.0.2.1", "Supports Quad-LEDs devices running iOS 13" ]
         ],
         "description": "<p>A CC module/Flipswitch tweak (similar to Amber) to always have the maximum LEDs brightness (i.e., using high current) for quad-LEDs devices. An example is when you turn on the light in video recording mode of the stock camera app. For iPhone 7 and newer, iPad Pro 12.9\" (2nd Gen) and newer.</p>"
