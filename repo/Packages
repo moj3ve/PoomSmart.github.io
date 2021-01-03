@@ -907,6 +907,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
 Name: QuadHighCurrent
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
 
+Package: com.ps.recordpause
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/com.ps.recordpause_1.3.4_iphoneos-arm.deb
+Size: 10480
+MD5sum: 6ce3b4a8f992b66e8f8c1166bc89bc88
+SHA1: e4c262ff9c7428ee0febfd7e4d34fbe22a22f328
+SHA256: cfc0625902de36f6f46e101dc7bc3819a6db1737ad3cc099f9146cf5c983bb72
+Section: Tweaks
+Description: Pause/resume video recording.
+Author: SpicaT
+Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
+Name: RecordPause (iOS 9+)
+
 Package: com.ps.silactions
 Version: 1.0.5
 Architecture: iphoneos-arm
@@ -1419,24 +1437,6 @@ Description: Toggle Torch while recording video.
 Author: SpicaT
 Icon: file:///Library/PreferenceLoaders/Preferences/TFV/TFV@2x.png
 Name: Record 'n' Torch iOS 12+
-
-Package: com.spicat.recordpause
-Version: 1.3.3
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.2)
-Conflicts: org.thebigboss.recordpause
-Filename: ./debs/com.spicat.recordpause_1.3.3_iphoneos-arm.deb
-Size: 9414
-MD5sum: 03fa0cff6b987ebb9d741343964ac0b4
-SHA1: c774edb145d9c0163159d3fc32ff3a377eedc187
-SHA256: 53e7f95b0d6a55bfb8effc73273e93d38b2ebfbf5af184e4172a16f99f45dadf
-Section: Tweaks
-Description: Pause/resume video recording.
-Author: SpicaT
-Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
-Name: RecordPause (iOS 9+)
 
 Package: com.spicat.transparentcamerabar
 Version: 1.8
