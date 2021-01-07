@@ -33,7 +33,7 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "14.1",
         "changes": [
-            [ "1.4.1~b7", "Experimental integration with libundirect" ],
+            [ "1.4.1~b8", "Experimental integration with libundirect" ],
             [ "1.4.1~b6", "In preparation for for-all compromise" ],
             [ "1.4.1~b5", "Improved libicucore hooking drastically for iOS < 13.2" ],
             [ "1.4~b3", "Improved libicucore hooking, Updated emoji.bitmap for iOS 9 and below" ],
