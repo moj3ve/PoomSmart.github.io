@@ -1474,24 +1474,6 @@ Description: Ensure you get latest emojis for WhatsApp stamps.
 Author: Spica T
 Name: WhatsAllEmojis
 
-Package: com.spicat.youpip
-Version: 0.0.6.3
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 316
-Depends: mobilesubstrate, firmware (>= 14.0) | com.spicat.forceinpicture (>= 1.1) | gsc.ipad | com.cabralcole.forceinpicture
-Filename: ./debs/com.spicat.youpip_0.0.6.3_iphoneos-arm.deb
-Size: 31052
-MD5sum: f64af3e408783842dc970d9c661470f8
-SHA1: 6a8385af3a046b4d2dd99f38acd8901255f26000
-SHA256: b8920821fac21bb8cfccb5608ddb9541589a40d5d08ae2a30e7b1ea86b56f8e8
-Section: Tweaks
-Description: Enable PIP in native YouTube app.
-Author: SpicaT
-Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
-Name: YouPIP
-Sileodepiction: https://poomsmart.github.io/repo/depictions/youpip.json
-
 Package: org.thebigboss.camblur7
 Version: 1.6.4
 Architecture: iphoneos-arm
