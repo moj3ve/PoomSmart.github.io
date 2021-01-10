@@ -1312,23 +1312,6 @@ Author: Spica T
 Name: AppColorClose iOS 12+
 
 Package: com.spicat.blurrybadges
-Version: 1.2.3
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 492
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
-Conflicts: org.thebigboss.blurrybadges
-Filename: ./debs/com.spicat.blurrybadges_1.2.3_iphoneos-arm.deb
-Size: 41372
-MD5sum: a484242ef9d7aaa09ca981d8b0038163
-SHA1: 9e15644d4e2910b181c72e4ca1e7f2eda0757a81
-SHA256: f9901b7b141d000b5e7d77ae61d11a83d3df9adc094f331a1d9689fdf7212348
-Section: Tweaks
-Description: Add customizable blur to SpringBoard icon badges.
-Author: SpicaT
-Name: BlurryBadges
-
-Package: com.spicat.blurrybadges
 Version: 1.2.4
 Architecture: iphoneos-arm
 Maintainer: SpicaT
