@@ -33,12 +33,8 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "14.1",
         "changes": [
-            [ "1.4.1~b8", "Experimental integration with libundirect" ],
-            [ "1.4.1~b6", "In preparation for for-all compromise" ],
-            [ "1.4.1~b5", "Improved libicucore hooking drastically for iOS < 13.2" ],
-            [ "1.4~b3", "Improved libicucore hooking, Updated emoji.bitmap for iOS 9 and below" ],
-            [ "1.4~b2", "Prevent crashing from hooking undefined function" ],
-            [ "1.4~b1", "Support for iOS 14.2 emojis" ]
+            [ "1.4.2", "Non-debug/release version" ],
+            [ "1.4.1~b8", "Experimental integration with libundirect" ]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
     },
@@ -267,7 +263,6 @@ tweaks = [
         "description": "<p>Unlock 1440p and 2160p resolutions in iOS YouTube app.</p>",
         "changes": [
             [ "0.0.3.7", "Hook more methods (by SarahH12099)" ],
-            [ "0.0.3.6", "Enforce Metal for video decoding" ],
             [ "0.0.3.3", "Improved reliability of the feature for all devices" ],
             [ "0.0.3.2", "Removed video formats restrictions completely for those devices that the original hook won't just work" ],
             [ "0.0.3.1", "Perform late-hooks for CydiaSubstrate devices" ],
