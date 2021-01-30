@@ -294,93 +294,17 @@ Author: PoomSmart
 Name: EModeji
 
 Package: com.ps.emojiattributes
-Version: 1.4.1~b1
+Version: 1.4.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 1272
-Depends: firmware (>= 6.0), mobilesubstrate
-Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.4.1~b1_iphoneos-arm.deb
-Size: 86380
-MD5sum: 6bc21ca8eac683a50180d62e1b58662a
-SHA1: 83bcb597dd61bf4abaee24e9a67ec0d6912bb652
-SHA256: 0436fae420ff8dd65768e2e571c90b13b8ceffa133ccf01e41c2c4af602c64f1
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
-Version: 1.4.1~b4
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 1180
-Depends: firmware (>= 6.0), mobilesubstrate
-Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.4.1~b4_iphoneos-arm.deb
-Size: 77622
-MD5sum: 6c9ce4946e02ed0a493347848b055732
-SHA1: 6f89ca750c247b3378fce21e2b4ffb86987f3031
-SHA256: c0872eadc5423cbaf4a6fc89a3d026a95139dc1b3222705711941f45935202bf
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
-Version: 1.4.1~b6
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 1272
-Depends: firmware (>= 6.0), mobilesubstrate
-Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.4.1~b6_iphoneos-arm.deb
-Size: 85972
-MD5sum: cdea9373d710a1cd7d25e8493ea37965
-SHA1: cdc57884750d67d2cf8fafd59f6a9eeea6715055
-SHA256: 841a6c34329a66595db06bcf40ef595ca1af292a62188f53dcc7f33d07cb7229
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
-Version: 1.4.1~b8
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 1176
+Installed-Size: 1116
 Depends: firmware (>= 6.0), mobilesubstrate, com.opa334.libundirect (>= 1.0)
 Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.4.1~b8_iphoneos-arm.deb
-Size: 81850
-MD5sum: 907e76df99e450b98892d4f7d1078d50
-SHA1: c2d8feba03ad4bb6922912427315e01c295944d1
-SHA256: 6887c36654449a41aaeafcb988ffff2bb406270728a12fc2e6130a962b3bc338
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
-Version: 1.4~b3
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 612
-Depends: firmware (>= 6.0), mobilesubstrate
-Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.4~b3_iphoneos-arm.deb
-Size: 47834
-MD5sum: 8470f028d54c4b07cb3cf483006ebb0a
-SHA1: 2eed5cbb511442e658f9017e6e884e3e36700ec9
-SHA256: 960282caec22b822ea00edd857f6b374b8a971aef1eac3dd7f6bb110113b07f6
+Filename: ./debs/com.ps.emojiattributes_1.4.2_iphoneos-arm.deb
+Size: 73102
+MD5sum: fc3b161420d8ebbd1c3c34d997216466
+SHA1: 6fece65e802b92c23ce72ba3f3011720f5398343
+SHA256: 5035abd61af802f16fd0d37a9dbb23166608e8557ceb32e964b2e6a941fd35e6
 Section: Tweaks
 Description: Various under-the-hood fixes for emoji display.
 Author: PoomSmart
@@ -1269,24 +1193,6 @@ Size: 3622
 MD5sum: 722b5e59f2d6812d229e7fde935b10d9
 SHA1: 30a6e300ee48dd5ed32db4bcef5c5b9ef52e7bb5
 SHA256: 936f8dbe4f69641fc2744c2cb7317e0d5408569d40ae1f9a61a26069820e3b59
-Section: Tweaks
-Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
-Name: YTUHD SW
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
-
-Package: com.ps.ytuhd
-Version: 0.0.3.6
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/com.ps.ytuhd_0.0.3.6_iphoneos-arm.deb
-Size: 4150
-MD5sum: 74d8dca8867ee8ecec42a118cc37e4ce
-SHA1: 3630c0baf12963d70ef3a3c709dc7722d5cd6fd4
-SHA256: 8d6e45dbe98b7fe5357e0abe6f67072cce511e5a9492a6b1e87ea5dca6dba4a1
 Section: Tweaks
 Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart
