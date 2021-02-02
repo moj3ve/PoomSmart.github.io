@@ -33,6 +33,7 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "14.1",
         "changes": [
+            [ "1.4.3", "Didn't know what exactly happened in 1.4.2, but here we go" ],
             [ "1.4.2", "Non-debug/release version" ],
             [ "1.4.1~b8", "Experimental integration with libundirect" ]
         ],
