@@ -1097,10 +1097,10 @@ Conflicts: com.spicat.tapvideoconfig
 Replaces: com.spicat.tapvideoconfig
 Provides: com.spicat.tapvideoconfig
 Filename: ./debs/com.ps.tapvideoconfig_0.0.5_iphoneos-arm.deb
-Size: 9762
-MD5sum: 33d5c99b6999c3c579c332f4004c8ec3
-SHA1: 2a9e066f962c19e8dedede70b071ce42463da595
-SHA256: 7efeef25187286b2ea0ec67a5aa37381b63ec452621880cc09b8e3380960ceb8
+Size: 12010
+MD5sum: ec4c2bdf5f1fa5b766665d27f1a07883
+SHA1: 050451dce9e61fefd2f0f1afa874522d83c29319
+SHA256: 683a8049793809a8a301f588fee7039f85b7a4e4cfc72d08893dc6ce49b19587
 Section: Tweaks
 Description: Change video configuration directly in Camera app.
 Author: PoomSmart
