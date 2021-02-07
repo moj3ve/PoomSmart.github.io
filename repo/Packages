@@ -1087,6 +1087,25 @@ Author: PoomSmart
 Depiction: https://poomSmart.github.io/repo/tapformore/index.html
 Name: TapForMore
 
+Package: com.ps.tapvideoconfig
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: com.spicat.tapvideoconfig
+Replaces: com.spicat.tapvideoconfig
+Provides: com.spicat.tapvideoconfig
+Filename: ./debs/com.ps.tapvideoconfig_0.0.5_iphoneos-arm.deb
+Size: 9762
+MD5sum: 33d5c99b6999c3c579c332f4004c8ec3
+SHA1: 2a9e066f962c19e8dedede70b071ce42463da595
+SHA256: 7efeef25187286b2ea0ec67a5aa37381b63ec452621880cc09b8e3380960ceb8
+Section: Tweaks
+Description: Change video configuration directly in Camera app.
+Author: PoomSmart
+Name: TapVideoConfig
+
 Package: com.ps.youpip
 Version: 0.0.7
 Architecture: iphoneos-arm
