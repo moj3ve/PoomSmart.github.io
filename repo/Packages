@@ -331,6 +331,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
 Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
+Package: com.ps.emojiattributes
+Version: 1.4.4~b1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1176
+Depends: firmware (>= 6.0), mobilesubstrate, com.opa334.libundirect (>= 1.0)
+Conflicts: com.ps.flexmoji
+Filename: ./debs/com.ps.emojiattributes_1.4.4~b1_iphoneos-arm.deb
+Size: 90744
+MD5sum: 814246e024b1a6ec3b5ad78e8ee89f52
+SHA1: b5c7753b50e1c0fb7a5ed2d6be6ac9e7051e1892
+SHA256: ae2db62168131576ae249c520ed95d566c0283bfe00753152a0fe9ce44e893a8
+Section: Tweaks
+Description: Various under-the-hood fixes for emoji display.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
+Name: EmojiAttributes
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
+
 Package: com.ps.emojidarkstyle
 Version: 1.0.6
 Architecture: iphoneos-arm
@@ -401,6 +420,23 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
 Name: EmojiLibrary
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
 
+Package: com.ps.emojilibrary
+Version: 1.2.2~b1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 544
+Filename: ./debs/com.ps.emojilibrary_1.2.2~b1_iphoneos-arm.deb
+Size: 71526
+MD5sum: 0f5baf4b9d89774d30568dca6ae3dd57
+SHA1: c03530bf3422a3b5689f312ec8a3af7e390c539c
+SHA256: 01b0f248fa79e89bd27d45613dee712e10e1e666f4da652d63a5b31a588c9a88
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+Name: EmojiLibrary
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+
 Package: com.ps.emojilocalization
 Version: 1.1
 Architecture: iphoneos-arm
@@ -444,6 +480,22 @@ Size: 26017946
 MD5sum: 2f3bf9fd5505fafa4e48ffdaeb05c065
 SHA1: aa44c5e2c9d9e920de3ca568550a85b399895f06
 SHA256: e0c2717a68fd0b90adf89ea73c600a9232c0dca26c74e773c52744efbcc4c65f
+Section: Tweaks
+Description: Necessary resources for EmojiPort iOS 10 and higher.
+Author: PoomSmart
+Name: EmojiPort Resources (iOS 10+)
+
+Package: com.ps.emojiport10resources
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 118028
+Depends: firmware (>= 10.0)
+Filename: ./debs/com.ps.emojiport10resources_1.2.2_iphoneos-arm.deb
+Size: 29267180
+MD5sum: da492a8a0591298fc0d8bc1550ddfd2a
+SHA1: 9d61babcbef85700bedf78e6ec1307c05530e47d
+SHA256: 70b0e30ead3ca32aaf3f3b4a4d3d4411255f5f2be95500e90e8746bfa0c9bb74
 Section: Tweaks
 Description: Necessary resources for EmojiPort iOS 10 and higher.
 Author: PoomSmart

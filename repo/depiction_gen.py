@@ -31,8 +31,9 @@ tweaks = [
         "file": "emojiattributes",
         "title": "EmojiAttributes",
         "min_ios": "5.1",
-        "max_ios": "14.1",
+        "max_ios": "14.4",
         "changes": [
+            [ "1.4.4~b1", "Initial support for iOS 14.5 beta 2 emojis" ],
             [ "1.4.3", "Didn't know what exactly happened in 1.4.2, but here we go" ],
             [ "1.4.2", "Non-debug/release version" ],
             [ "1.4.1~b8", "Experimental integration with libundirect" ]
@@ -68,6 +69,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.2.2", "iOS 14.5 beta 2 emojis added" ],
             [ "1.2.1", "Stable release, iOS 14.2 emojis added" ]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
@@ -140,14 +142,15 @@ tweaks = [
     },
     {
         "file": "emojiport_12",
-        "title": "EmojiPort (iOS 12.0 - 14.1)",
+        "title": "EmojiPort (iOS 12.0 - 14.4)",
         "min_ios": "12.0",
-        "max_ios": "14.1",
+        "max_ios": "14.4",
         "strict_range": True,
         "changes": [
+            [ "1.1~b1", "Initial support for iOS 14.5 beta 2 emojis" ],
             [ "1.0.11", "Prevented crash when hooking C function on some devices" ]
         ],
-        "description": "<p>Latest emojis for iOS 12.0 - 14.1</p>\
+        "description": "<p>Latest emojis for iOS 12.0 - 14.4</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
