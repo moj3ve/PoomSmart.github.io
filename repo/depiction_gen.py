@@ -69,7 +69,8 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
-            [ "1.2.2", "iOS 14.5 beta 2 emojis added" ],
+            [ "1.2.2~b2", "Handles face-only couple emojis" ],
+            [ "1.2.2~b1", "iOS 14.5 beta 2 emojis added" ],
             [ "1.2.1", "Stable release, iOS 14.2 emojis added" ]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
