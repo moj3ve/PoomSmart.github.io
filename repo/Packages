@@ -597,10 +597,10 @@ Maintainer: PoomSmart
 Installed-Size: 336
 Depends: firmware (>= 12.0), firmware (<< 14.5), com.ps.emojiattributes (>= 1.3.27), com.ps.emojilibrary (>= 1.2.2~b2), com.ps.emojiport10resources (>= 1.1~b1)
 Filename: ./debs/com.ps.emojiportpe_1.1~b1_iphoneos-arm.deb
-Size: 15970
-MD5sum: bfc1c67526834c85d8a7b09298d9b079
-SHA1: a0618bccae563574c1c218433bd8d05288fa867a
-SHA256: eaee53f94b85d12c18e58af4f6a3f9adade42a5280cccb917a7747db987b8d4a
+Size: 15848
+MD5sum: 62b8db165522a26c08fa328005e2b89e
+SHA1: 06e156f07c850465bcefec22fb2de1880cde9fa9
+SHA256: 224011079dd5a797753cdbead6b1e79b8449e5effe1d81e35bcf7ce8b632afc1
 Section: Tweaks
 Description: Latest emojis for iOS 12.0-14.4
 Author: PoomSmart
