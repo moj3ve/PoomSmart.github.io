@@ -69,6 +69,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.2.2~b5", "Fixed possible crashing when populating neutral couple emojis" ],
             [ "1.2.2~b4", "Improved emojis handling" ],
             [ "1.2.2~b3", "Fixed ... display at couple emojis (iOS 14+)" ],
             [ "1.2.2~b2", "Handles face-only couple emojis" ],
@@ -150,6 +151,7 @@ tweaks = [
         "max_ios": "14.4",
         "strict_range": True,
         "changes": [
+            [ "1.1~b4", "Improved hooking coverage" ],
             [ "1.1~b3", "Render face-only couple emojis in the picker correctly" ],
             [ "1.1~b2", "Updated for EmojiLibrary 1.2.2~b2" ],
             [ "1.1~b1", "Initial support for iOS 14.5 beta 2 emojis" ],
