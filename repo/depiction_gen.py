@@ -98,6 +98,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.7.3~b1", "Support for iOS 14.5 emojis" ],
             [ "1.7.2~b4", "Fixed tweak not loading at all" ],
             [ "1.7.2~b2", "Requires latest dependencies" ]
         ],
