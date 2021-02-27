@@ -605,6 +605,24 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_3.html
 Name: EmojiPort (iOS 8.3-8.4)
 
+Package: com.ps.emojiportfix
+Version: 1.6.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 268
+Depends: firmware (>= 8.3), firmware (<< 9.0), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojiresources (>= 1.1), com.ps.emojilibrary (>= 1.2.2~b5)
+Conflicts: org.thebigboss.emoji83plus, com.ps.emoji9fix, com.ps.emoji10fix
+Filename: ./debs/com.ps.emojiportfix_1.6.3_iphoneos-arm.deb
+Size: 10758
+MD5sum: 9d595b83bfe6ccca8d3344dcd8b9e78d
+SHA1: d0d6b5e6fe6a7527f3c09ad72436032149cb6d20
+SHA256: a2bed9acb4ea2b9c8d8f773ed564c6806b0370d07f7fc251919e3dcb708c5418
+Section: Tweaks
+Description: Latest emojis for iOS 8.3-8.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_3.html
+Name: EmojiPort (iOS 8.3-8.4)
+
 Package: com.ps.emojiportlegacy
 Version: 1.7.2~b4
 Architecture: iphoneos-arm
@@ -743,6 +761,24 @@ Size: 8696
 MD5sum: a8c1c84beb0048ada0e3e566385442d1
 SHA1: 081f4c1dedb8fc6f8f6d5b95875646316ca7e072
 SHA256: b0775aca785200c73fd4e5eb0156a01d0ed2669daca94ab509b4911cfb023a51
+Section: Tweaks
+Description: Latest emojis for iOS 9.0-9.3
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_9.html
+Name: EmojiPort (iOS 9.0-9.3)
+
+Package: com.ps.emojiportps
+Version: 1.6.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 268
+Depends: firmware (>= 9.0), firmware (<< 10.0), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilibrary (>= 1.2.2~b5), firmware (>= 9.1) | com.ps.emojilocalization (>= 1.1), firmware (>= 9.1) | com.ps.emojiresources (>= 1.1)
+Conflicts: org.thebigboss.emoji83plus, com.hamzasood.emoji9, com.ps.emoji9ps, com.ps.emoji10ps
+Filename: ./debs/com.ps.emojiportps_1.6.3_iphoneos-arm.deb
+Size: 9520
+MD5sum: a65c891e47a3a37b7ced2ccb67eac824
+SHA1: 8b775dac2159c48547048f9175911e65336f96fd
+SHA256: 9b24d24916d239a48308da76f7f0c083527ad10e0398bfb068ff41daf41271ee
 Section: Tweaks
 Description: Latest emojis for iOS 9.0-9.3
 Author: PoomSmart

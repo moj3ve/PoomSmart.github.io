@@ -113,6 +113,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.6.3", "Updated for the latest EmojiLibrary" ],
             [ "1.6.2", "Fixed tweak not loading at all" ],
             [ "1.6.0", "Stable release, requires latest dependencies" ]
         ],
@@ -127,6 +128,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.6.3", "Updated for the latest EmojiLibrary" ],
             [ "1.6.2", "Fixed tweak not loading at all" ],
             [ "1.6.0", "Stable release, requires latest dependencies" ]
         ],
