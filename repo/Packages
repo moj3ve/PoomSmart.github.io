@@ -130,6 +130,24 @@ Description: Predictive keyboard anywhere.
 Author: PoomSmart
 Name: AnywherePredict
 
+Package: com.ps.anywherewidgetsforipad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 14.0)
+Filename: ./debs/com.ps.anywherewidgetsforipad_1.0_iphoneos-arm.deb
+Size: 3942
+MD5sum: e703afcaab6dd09a9fbda64992ab5425
+SHA1: 741ab5a4ea6004c91abf59c2a86a811e27099a7f
+SHA256: b5c98530d7acb6470929298ae2deb8b91055eddd1e5826fb6bbe88b93e8aaece
+Section: Tweaks
+Description: Allow widgets to be on home screen on iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/anywherewidgetsforipad.html
+Name: Anywhere Widgets for iPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/anywherewidgetsforipad.json
+
 Package: com.ps.applebtdeviceessupport
 Version: 0.0.1
 Architecture: iphoneos-arm

@@ -230,6 +230,7 @@ tweaks = [
         "file": "pad56",
         "title": "Pad56",
         "min_ios": "7.0",
+        "max_ios": "13.7",
         "description": "<p>5x6 icon layout for iPad and iPad Pro. That's it.</p>"
     },
     {
@@ -293,6 +294,16 @@ tweaks = [
         "changes": [
             [ "0.0.8", "Experimental support for YouTube version 15.47" ],
             [ "0.0.6.3", "Supports YouTube version 15.34.3" ]
+        ]
+    },
+    {
+        "file": "anywherewidgetsforipad",
+        "title": "Anywhere Widgets for iPad",
+        "description": "\
+                <p>Allow widgets to be on home screen on iPad.</p>\
+                <p>Also adjusts the home screen icon grid size to 8x6 (or 7x5 zoomed) to compromise the differences in icon size categories.</p>",
+        "changes": [
+            [ "1.0", "Initial release" ]
         ]
     }
 ]
