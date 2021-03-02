@@ -131,16 +131,16 @@ Author: PoomSmart
 Name: AnywherePredict
 
 Package: com.ps.anywherewidgetsforipad
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 14.0)
-Filename: ./debs/com.ps.anywherewidgetsforipad_1.0_iphoneos-arm.deb
-Size: 3942
-MD5sum: e703afcaab6dd09a9fbda64992ab5425
-SHA1: 741ab5a4ea6004c91abf59c2a86a811e27099a7f
-SHA256: b5c98530d7acb6470929298ae2deb8b91055eddd1e5826fb6bbe88b93e8aaece
+Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 14.0), me.nepeta.iconstate
+Filename: ./debs/com.ps.anywherewidgetsforipad_1.1_iphoneos-arm.deb
+Size: 3946
+MD5sum: 32919c3d0eb20cab89aabe65491cb7f7
+SHA1: 053f8a31d4993b4f3489d38b18ae848a53ac1708
+SHA256: 9193b6b2c44ff74c03771acec69a9f9dcd8af00a12706e67406c993a98f3fb15
 Section: Tweaks
 Description: Allow widgets to be on home screen on iPad.
 Author: PoomSmart
@@ -1698,6 +1698,22 @@ Section: Tweaks
 Description: Ensure you get latest emojis for WhatsApp stamps.
 Author: Spica T
 Name: WhatsAllEmojis
+
+Package: me.nepeta.iconstate
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Nepeta <ominousness@protonmail.com>
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/me.nepeta.iconstate_0.1.0_iphoneos-arm.deb
+Size: 4618
+MD5sum: 3e4b6beb0282378e2fe33d9f03da4cf5
+SHA1: e7e6f4f94e7067364c1d9059e9e65efae8b6e0ae
+SHA256: 24dfde881451a6285793e7d346ea7a58a6138112fc93c90a78847fec3ccb4aaf
+Section: Tweaks
+Description: Preserve custom icon layouts between reboots
+Author: Nepeta <ominousness@protonmail.com>
+Name: IconState
 
 Package: org.thebigboss.camblur7
 Version: 1.6.4
