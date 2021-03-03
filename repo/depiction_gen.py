@@ -33,6 +33,7 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "14.4",
         "changes": [
+            [ "1.4.4~b2", "Updated assets from iOS 14.5 beta 3" ],
             [ "1.4.4~b1", "Initial support for iOS 14.5 beta 2 emojis" ],
             [ "1.4.3", "Didn't know what exactly happened in 1.4.2, but here we go" ],
             [ "1.4.2", "Non-debug/release version" ],
