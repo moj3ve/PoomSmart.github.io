@@ -148,6 +148,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/anywherewidgetsforipad.ht
 Name: Anywhere Widgets for iPad
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/anywherewidgetsforipad.json
 
+Package: com.ps.anywherewidgetsforipad
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 14.0), me.nepeta.iconstate
+Filename: ./debs/com.ps.anywherewidgetsforipad_1.2_iphoneos-arm.deb
+Size: 4204
+MD5sum: f9732a6b81852e5bcbc6bbaa6fb3a652
+SHA1: 45def04aa8268473ee6f1c94a4714bc1aaebc2c4
+SHA256: c1c50739ce269e6f6b2cf9215e658b94263d05c259ed78be3b7c68c5852ab318
+Section: Tweaks
+Description: Allow widgets to be on home screen on iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/anywherewidgetsforipad.html
+Name: Anywhere Widgets for iPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/anywherewidgetsforipad.json
+
 Package: com.ps.applebtdeviceessupport
 Version: 0.0.1
 Architecture: iphoneos-arm

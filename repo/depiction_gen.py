@@ -303,6 +303,7 @@ tweaks = [
                 <p>Allow widgets to be on home screen on iPad.</p>\
                 <p>Also adjusts the home screen icon grid size to 8x6 (or 7x5 zoomed) to compromise the differences in icon size categories.</p>",
         "changes": [
+            [ "1.2", "Fixed bugged icon grid size in folders" ],
             [ "1.1", "Make IconState a dependency" ]
         ]
     }
