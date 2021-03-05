@@ -33,6 +33,7 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "14.4",
         "changes": [
+            [ "1.4.4~b3", "Reenabled iOS 5.1 support" ],
             [ "1.4.4~b2", "Updated assets from iOS 14.5 beta 3" ],
             [ "1.4.4~b1", "Initial support for iOS 14.5 beta 2 emojis" ],
             [ "1.4.3", "Didn't know what exactly happened in 1.4.2, but here we go" ],
@@ -56,11 +57,12 @@ tweaks = [
     {
         "file": "emojilayout",
         "title": "EmojiLayout",
-        "min_ios": "6.0",
+        "min_ios": "5.1",
         "max_ios": "8.2",
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.1.20", "Reenabled iOS 5.1 support" ],
             [ "1.1.19", "Fixed tweak not loading at all" ]
         ],
         "description": "<p>Layout emoji keyboard. Specifically, set number of rows and columns of emoji display.</p>"
@@ -88,6 +90,9 @@ tweaks = [
         "max_ios": "5.1.1",
         "strict_range": True,
         "no_sileo": True,
+        "changes": [
+            [ "1.0.8", "Updated for latest emojis" ]
+        ],
         "description": "<p>Latest emojis for iOS 5.1</p>\
             <p>This EmojiPort variant ports some of the iOS 6 variant for best compatibility on iOS 5. The manual way is recommended, as written in <a href=\"https://poomsmart.github.io/repo/emoji10.html\">here</a>.</p>"
     },
