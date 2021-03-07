@@ -148,6 +148,7 @@ tweaks = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
+            [ "1.3.4", "Fixed crashing when using normal skinned emojis" ],
             [ "1.3.3", "Minor improvement" ]
         ],
         "description": "<p>Latest emojis for iOS 10.0 - 11.4</p>\
@@ -160,6 +161,7 @@ tweaks = [
         "max_ios": "14.4",
         "strict_range": True,
         "changes": [
+            [ "1.1~b5", "Fixed crashing when using normal skinned emojis" ],
             [ "1.1~b4", "Improved hooking coverage" ],
             [ "1.1~b3", "Render face-only couple emojis in the picker correctly" ],
             [ "1.1~b2", "Updated for EmojiLibrary 1.2.2~b2" ],

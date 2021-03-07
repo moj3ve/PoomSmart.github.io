@@ -858,6 +858,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
 Name: EmojiPort (iOS 12.0-14.4)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
 
+Package: com.ps.emojiportpe
+Version: 1.1~b5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 320
+Depends: firmware (>= 12.0), firmware (<< 14.5), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilibrary (>= 1.2.2~b5), com.ps.emojiport10resources (>= 1.2.2)
+Filename: ./debs/com.ps.emojiportpe_1.1~b5_iphoneos-arm.deb
+Size: 16842
+MD5sum: 2daae5d7559ed13f1ec9c6053faf5db8
+SHA1: 684487864adc991e44d3244485fa141bb947dc6f
+SHA256: 9349ea3e1698c1d1fc244cc7a711355edae079f22a517498c84e055bd91429ad
+Section: Tweaks
+Description: Latest emojis for iOS 12.0-14.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
+Name: EmojiPort (iOS 12.0-14.4)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
+
 Package: com.ps.emojiportps
 Version: 1.6.2
 Architecture: iphoneos-arm
@@ -906,6 +924,25 @@ Size: 14486
 MD5sum: d6289bfc7dbcffe411d12c42afa56934
 SHA1: b62154a6b8e14a69cbf5e3d7a8cf0ec9d2933320
 SHA256: 08f2bd9b53207f7c50426f0d3efcb44e172ac8a268d7d05efbabdd8f6fb64b8f
+Section: Tweaks
+Description: Latest emojis for iOS 10.0-11.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_10.html
+Name: EmojiPort (iOS 10.0-11.4)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_10.json
+
+Package: com.ps.emojiportwt
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 336
+Depends: firmware (>= 10.0), firmware (<< 12.0), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilibrary (>= 1.1.0), com.ps.emojiport10resources (>= 1.0.5)
+Conflicts: com.ps.emoji10wt
+Filename: ./debs/com.ps.emojiportwt_1.3.4_iphoneos-arm.deb
+Size: 14488
+MD5sum: b4af8c9be2e88d465dfa4206b2f18261
+SHA1: 796c6bd339bbd9ffeff692a4cdc816a9145692a4
+SHA256: 6853c73e7d6887978c2cc8074672bac30bff5a83bd06a61861ca4523d610b6dc
 Section: Tweaks
 Description: Latest emojis for iOS 10.0-11.4
 Author: PoomSmart
