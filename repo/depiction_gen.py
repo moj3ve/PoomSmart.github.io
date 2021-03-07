@@ -37,8 +37,7 @@ tweaks = [
             [ "1.4.4~b2", "Updated assets from iOS 14.5 beta 3" ],
             [ "1.4.4~b1", "Initial support for iOS 14.5 beta 2 emojis" ],
             [ "1.4.3", "Didn't know what exactly happened in 1.4.2, but here we go" ],
-            [ "1.4.2", "Non-debug/release version" ],
-            [ "1.4.1~b8", "Experimental integration with libundirect" ]
+            [ "1.4.2", "Non-debug/release version" ]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
     },
@@ -62,8 +61,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.1.20", "Reenabled iOS 5.1 support" ],
-            [ "1.1.19", "Fixed tweak not loading at all" ]
+            [ "1.1.20", "Reenabled iOS 5.1 support" ]
         ],
         "description": "<p>Layout emoji keyboard. Specifically, set number of rows and columns of emoji display.</p>"
     },
@@ -105,8 +103,7 @@ tweaks = [
         "no_sileo": True,
         "changes": [
             [ "1.7.3~b1", "Support for iOS 14.5 emojis" ],
-            [ "1.7.2~b4", "Fixed tweak not loading at all" ],
-            [ "1.7.2~b2", "Requires latest dependencies" ]
+            [ "1.7.2~b4", "Fixed tweak not loading at all" ]
         ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
                 <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -120,8 +117,7 @@ tweaks = [
         "no_sileo": True,
         "changes": [
             [ "1.6.3", "Updated for the latest EmojiLibrary" ],
-            [ "1.6.2", "Fixed tweak not loading at all" ],
-            [ "1.6.0", "Stable release, requires latest dependencies" ]
+            [ "1.6.2", "Fixed tweak not loading at all" ]
         ],
         "description": "<p>Latest emojis for iOS 8.3 - 8.4</p>\
                 <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -134,9 +130,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.6.3", "Updated for the latest EmojiLibrary" ],
-            [ "1.6.2", "Fixed tweak not loading at all" ],
-            [ "1.6.0", "Stable release, requires latest dependencies" ]
+            [ "1.6.3", "Updated for the latest EmojiLibrary" ]
         ],
         "description": "<p>Latest emojis for iOS 9.0 - 9.3</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -148,8 +142,7 @@ tweaks = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
-            [ "1.3.4", "Fixed crashing when using normal skinned emojis" ],
-            [ "1.3.3", "Minor improvement" ]
+            [ "1.3.4", "Fixed crashing when using normal skinned emojis" ]
         ],
         "description": "<p>Latest emojis for iOS 10.0 - 11.4</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -193,8 +186,7 @@ tweaks = [
         "title": "Amber",
         "min_ios": "7.0",
         "changes": [
-            [ "0.0.4", "Support H13 camera devices" ],
-            [ "0.0.3.7", "Fixed Amber swipe gestures not working on iOS 11+" ]
+            [ "0.0.4", "Support H13 camera devices" ]
         ],
         "description": "<p>A CC module/Flipswitch tweak to allow setting of Amber LED, or both White and Amber LEDs.</p>"
     },
@@ -203,8 +195,7 @@ tweaks = [
         "title": "QuadHighCurrent",
         "min_ios": "10.0",
         "changes": [
-            [ "0.0.3", "Support H13 camera devices" ],
-            [ "0.0.2.1", "Supports Quad-LEDs devices running iOS 13" ]
+            [ "0.0.3", "Support H13 camera devices" ]
         ],
         "description": "<p>A CC module/Flipswitch tweak (similar to Amber) to always have the maximum LEDs brightness (i.e., using high current) for quad-LEDs devices. An example is when you turn on the light in video recording mode of the stock camera app. For iPhone 7 and newer, iPad Pro 12.9\" (2nd Gen) and newer.</p>"
     },
@@ -255,8 +246,7 @@ tweaks = [
         "title": "Pencil Pro",
         "min_ios": "9.0",
         "changes": [
-            [ "0.0.2.4", "Improved iOS 13.5 support" ],
-            [ "0.0.2.3", "Removed unused bits" ]
+            [ "0.0.2.4", "Improved iOS 13.5 support" ]
         ],
         "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>"
     },
@@ -300,8 +290,7 @@ tweaks = [
                 <p>Enable PIP in native YouTube app.</p>\
                 <p><a href=\"https://www.reddit.com/r/jailbreak/comments/8zsze4/release_youpip_enable_native_pip_feature_in/\">Read related reddit article</a></p>",
         "changes": [
-            [ "0.0.8", "Experimental support for YouTube version 15.47" ],
-            [ "0.0.6.3", "Supports YouTube version 15.34.3" ]
+            [ "0.0.8", "Experimental support for YouTube version 15.47" ]
         ]
     },
     {
@@ -311,8 +300,7 @@ tweaks = [
                 <p>Allow widgets to be on home screen on iPad.</p>\
                 <p>Also adjusts the home screen icon grid size to 8x6 (or 7x5 zoomed) to compromise the differences in icon size categories.</p>",
         "changes": [
-            [ "1.2", "Fixed bugged icon grid size in folders" ],
-            [ "1.1", "Make IconState a dependency" ]
+            [ "1.2", "Fixed bugged icon grid size in folders" ]
         ]
     }
 ]
