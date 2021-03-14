@@ -31,8 +31,8 @@ tweaks = [
         "file": "emojiattributes",
         "title": "EmojiAttributes",
         "min_ios": "5.1",
-        "max_ios": "14.4",
         "changes": [
+            [ "1.4.4~b4", "Supports libundirect 1.1" ],
             [ "1.4.4~b3", "Reenabled iOS 5.1 support" ],
             [ "1.4.4~b2", "Updated assets from iOS 14.5 beta 3" ],
             [ "1.4.4~b1", "Initial support for iOS 14.5 beta 2 emojis" ],
@@ -151,7 +151,7 @@ tweaks = [
         "file": "emojiport_12",
         "title": "EmojiPort (iOS 12.0 - 14.4)",
         "min_ios": "12.0",
-        "max_ios": "14.4",
+        "max_ios": "14.4.1",
         "strict_range": True,
         "changes": [
             [ "1.1~b5", "Fixed crashing when using normal skinned emojis" ],
