@@ -46,6 +46,7 @@ tweaks = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            [ "0.0.8.5", "Use ARC in preference bundle, fixing iOS 7 support" ],
             [ "0.0.8.4", "Use com.apple.UIKit defaults instead of Cephei preferences to overcome sandbox issue" ]
         ],
         "description": "<p><b>**EmojiPort needs to be installed if you also want new emojis.**</b> This tweak allows you to override system's emoji font without swapping them. Access <b>Settings app &gt; EmojFontManager</b>\
