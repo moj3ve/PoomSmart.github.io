@@ -1080,6 +1080,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
 Name: LetMeBlock
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
 
+Package: com.ps.letmeblock
+Version: 0.0.7.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0), com.git-anish.mDNSrestart | firmware (<< 12.0)
+Filename: ./debs/com.ps.letmeblock_0.0.7.6_iphoneos-arm.deb
+Size: 5642
+MD5sum: 99b5ebbf4acd7d5993f0fe5c212ce443
+SHA1: 97a20c1bd93c423ab598a0a1930c86eaa5c36f88
+SHA256: 7c788fdd4aab6af45d04d23d19b3c8bc8097a974396ca0c3dcae136b4dba5f49
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
 Package: com.ps.libsubstitrate
 Version: 0.0.1-3
 Architecture: iphoneos-arm
