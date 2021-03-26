@@ -171,8 +171,7 @@ tweaks = [
         "title": "LetMeBlock",
         "min_ios": "9.0",
         "changes": [
-            [ "0.0.7.7", "Auto-kill mDNSResponderHelper when mDNSResponder keeps crashing" ],
-            [ "0.0.7.6", "Added mDNSrestart as a dependency (for iOS 12+)" ],
+            [ "0.0.7.8", "Auto-kill mDNSResponderHelper when mDNSResponder keeps crashing" ],
             [ "0.0.7.5", "Compiled with ARC to support devices with libhooker (Credits to @Diatrus)" ],
             [ "0.0.7.4", "Removed unneeded bits" ],
             [ "0.0.7", "Deprecated libSubstitrate the right way" ]
