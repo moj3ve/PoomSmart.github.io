@@ -228,22 +228,6 @@ Description: iOS 10 Flip button <-> Filter button swap.
 Author: PoomSmart
 Name: CamSwitchDown
 
-Package: com.ps.capture
-Version: 0.0.3
-Architecture: iphoneos-arm
-Installed-Size: 536
-Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0), gsc.dictation, com.rpetrich.rocketbootstrap (>= 1.0.2), ws.hbang.common (>= 1.2), cc.tweak.libobjcipc
-Filename: ./debs/com.ps.capture_0.0.3_iphoneos-arm.deb
-Size: 79798
-MD5sum: af05472e7172c677e4d6f9f656a77727
-SHA1: e0fdeb07e8d593fefac56f14b8511e59849e07c4
-SHA256: 5aa7909e6b67171e36e1a72b5b59f3203d5c2d0a43852b3646fe5253d2bb62bc
-Section: Tweaks
-Description: Take photos or videos just by saying a word.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/capture/index.html
-Name: Capture
-
 Package: com.ps.cconandoff
 Version: 0.0.1.1
 Architecture: iphoneos-arm
@@ -1423,24 +1407,6 @@ Description: Always show zoom slider in camera app.
 Author: PoomSmart
 Depiction: http://PoomSmart.github.io/repo/staticzoom/index.html
 Name: StaticZoom
-
-Package: com.ps.swipekey
-Version: 1.0-2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 92
-Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0)
-Replaces: org.thebigboss.swipekey
-Filename: ./debs/com.ps.swipekey_1.0-2_iphoneos-arm.deb
-Size: 7632
-MD5sum: 5de0895b1023aa0625515fa4ed7c0d1c
-SHA1: 294db066d7605c9f79be0defc564bac60292c669
-SHA256: 7c5f2164266ccda1e37c3f1a6deb87677339928243003bd7e4335cfa7d0f143d
-Section: Tweaks
-Description: Swipe across keyboard for continuous typing!
-Author: PoomSmart
-Depiction: http://PoomSmart.github.io/repo/swipekey/index.html
-Name: SwipeKey [Beta]
 
 Package: com.ps.tapformore
 Version: 1.0.1
