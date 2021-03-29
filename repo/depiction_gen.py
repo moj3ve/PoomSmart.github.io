@@ -62,6 +62,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.1.21", "Recognizes iPad emoji landscape keyboard variant" ],
             [ "1.1.20", "Reenabled iOS 5.1 support" ]
         ],
         "description": "<p>Layout emoji keyboard. Specifically, set number of rows and columns of emoji display.</p>"
@@ -103,6 +104,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.7.3~b3", "Better support for iOS 6 iPad emoji keyboard" ],
             [ "1.7.3~b2", "Better support for iOS 7 split keyboard" ],
             [ "1.7.3~b1", "Support for iOS 14.5 emojis" ],
             [ "1.7.2~b4", "Fixed tweak not loading at all" ]
