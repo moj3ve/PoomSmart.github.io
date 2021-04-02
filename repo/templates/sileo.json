@@ -1,26 +1,27 @@
 {
-    "minVersion": "0.1",
+    "minVersion": "0.4",
+    "class": "DepictionTabView",
     "tabs": [
       {
+        "class": "DepictionStackView",
         "tabname": "Details",
         "views": [
           {
+            "class": "DepictionMarkdownView",
             "markdown": "",
             "useSpacing": true,
-            "class": "DepictionMarkdownView"
+            "useRawFormat": true
           },
           {
             "class": "DepictionSeparatorView"
           },
           {
+            "class": "DepictionTableTextView",
             "title": "Developer",
-            "text": "",
-            "class": "DepictionTableTextView"
+            "text": ""
           }
         ],
-        "xPadding": 10,
-        "class": "DepictionStackView"
+        "xPadding": 10
       }
-    ],
-    "class": "DepictionTabView"
+    ]
   }
