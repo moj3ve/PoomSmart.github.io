@@ -363,12 +363,18 @@ for entry in tweaks:
             views.insert(0, support_versions)
         if changes:
             changes_tab = {
+                "class": "DepictionStackView",
                 "tabname": "Latest Changes",
-                "views": [],
-                "class": "DepictionStackView"
+                "views": []
             }
             views = changes_tab["views"]
+            first_change = True
             for change in changes:
+                if not first_change:
+                    views.append({
+                        "class": "DepictionSeparatorView"
+                    })
+
                 views.append({
                     "class": "DepictionSubheaderView",
                     "title": "Version %s" % change[0]
@@ -381,13 +387,11 @@ for entry in tweaks:
                 else:
                     change_part = "<ul><li>%s</li></ul>" % change[1]
                 views.append({
+                    "class": "DepictionMarkdownView",
                     "markdown": change_part,
-                    "useRawFormat": True,
-                    "class": "DepictionMarkdownView"
+                    "useRawFormat": True
                 })
-                views.append({
-                    "class": "DepictionSeparatorView"
-                })
+                first_change = False
             tabs.append(changes_tab)
 
     with open(sileo_output_path, 'w') as out_file:
