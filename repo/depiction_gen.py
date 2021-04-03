@@ -32,6 +32,7 @@ tweaks = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            [ "1.4.4~b5", "Improved emoji sizing fix logic for iOS 6 - 9" ],
             [ "1.4.4~b4", "Supports libundirect 1.1" ],
             [ "1.4.4~b3", "Reenabled iOS 5.1 support" ],
             [ "1.4.4~b2", "Updated assets from iOS 14.5 beta 3" ],
@@ -104,6 +105,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.7.3~b4", "Fixed crashing with iOS 6 iPad split emoji keyboard" ],
             [ "1.7.3~b3", "Better support for iOS 6 iPad emoji keyboard" ],
             [ "1.7.3~b2", "Better support for iOS 7 split keyboard" ],
             [ "1.7.3~b1", "Support for iOS 14.5 emojis" ],
