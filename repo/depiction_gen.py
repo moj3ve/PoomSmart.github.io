@@ -92,6 +92,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.0.9", "Got rid of old code" ],
             [ "1.0.8", "Updated for latest emojis" ]
         ],
         "description": "<p>Latest emojis for iOS 5.1</p>\
