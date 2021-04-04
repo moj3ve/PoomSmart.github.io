@@ -92,8 +92,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.0.9", "Got rid of old code" ],
-            [ "1.0.8", "Updated for latest emojis" ]
+            [ "1.0.9", "Got rid of old code" ]
         ],
         "description": "<p>Latest emojis for iOS 5.1</p>\
             <p>This EmojiPort variant ports some of the iOS 6 variant for best compatibility on iOS 5. The manual way is recommended, as written in <a href=\"https://poomsmart.github.io/repo/emoji10.html\">here</a>.</p>"
@@ -123,8 +122,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.6.3", "Updated for the latest EmojiLibrary" ],
-            [ "1.6.2", "Fixed tweak not loading at all" ]
+            [ "1.6.4", "Updated for the latest EmojiLibrary" ]
         ],
         "description": "<p>Latest emojis for iOS 8.3 - 8.4</p>\
                 <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -137,7 +135,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.6.3", "Updated for the latest EmojiLibrary" ]
+            [ "1.6.4", "Updated for the latest EmojiLibrary" ]
         ],
         "description": "<p>Latest emojis for iOS 9.0 - 9.3</p>\
             <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
